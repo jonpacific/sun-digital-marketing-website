@@ -64,23 +64,17 @@ function Results() {
           ))}
         </div>
 
-        <div className="quote-wrap reveal">
-          <div className="quote-mark grad-text">“</div>
+        <div className=”quote-wrap reveal”>
+          <div className=”quote-mark grad-text”>”</div>
           <blockquote>
-            We replaced three vendors and a part-time hire with Sun Digital. The morning briefing
-            alone catches things we’d have missed for weeks.
+            Jon and Trevor are incredibly professional, responsive, and knowledgeable. They take the time to explain strategy, answer questions, and make sure everything is running smoothly. It’s clear they genuinely care about their clients’ success.
           </blockquote>
-          <div className="quote-by">
-            <div className="quote-ava" aria-hidden="true">PH</div>
-            <div><b>Client testimonial</b><small>placeholder: drop a real quote &amp; photo here</small></div>
-          </div>
-        </div>
-
-        <div className="logos reveal">
-          <span className="logos-label">Trusted by small businesses across the Southeast</span>
-          <div className="logos-row">
-            {["Client logo","Client logo","Client logo","Client logo","Client logo"].map((l, i) =>
-              <div className="logo-slot" key={i}>{l}</div>)}
+          <div className=”quote-by”>
+            <div className=”quote-ava” aria-hidden=”true”>MA</div>
+            <div>
+              <b>Marc Alhanaty</b>
+              <small>Google Review ★★★★★</small>
+            </div>
           </div>
         </div>
       </div>
