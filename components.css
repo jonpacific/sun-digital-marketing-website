@@ -290,3 +290,6 @@
   .hero-bleed .hero-card { margin: 24px 20px 0; }
   .footer-base { flex-direction: column; gap: 6px; }
 }
+
+.sc-calendly-btn { display: block; margin-top: 12px; background: var(--sun-grad); color: #fff; text-decoration: none; font-size: 14px; font-weight: 600; padding: 11px 20px; border-radius: 100px; text-align: center; transition: opacity .15s; font-family: var(--font-ui); }
+.sc-calendly-btn:hover { opacity: .85; }
