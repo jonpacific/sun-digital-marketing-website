@@ -77,7 +77,7 @@ function SolChat() {
               <svg width="16" height="16" viewBox="0 0 16 16"><path d="M4 4l8 8M12 4l-8 8" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round"/></svg>
             </button>
           </div>
-          <div className="sc-body" ref={bodyRef}>
+          <div className="sc-body" ref={bodyRef} role="log" aria-live="polite" aria-label="Conversation with Sol">
             {msgs.map((m, i) => (
               <div key={i} className={"sc-msg sc-" + m.who}>
                 {m.text}
@@ -100,6 +100,7 @@ function SolChat() {
               onChange={e => setInput(e.target.value)}
               onKeyDown={handleKey}
               placeholder="Ask Sol anything..."
+              aria-label="Message Sol"
               autoFocus
             />
             <button onClick={send} disabled={typing} aria-label="Send">

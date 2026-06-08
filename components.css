@@ -289,6 +289,17 @@
   .tool-grid, .svc-grid, .founders-photos { grid-template-columns: 1fr; }
   .hero-bleed .hero-card { margin: 24px 20px 0; }
   .footer-base { flex-direction: column; gap: 6px; }
+  .hero-actions { flex-direction: column; align-items: flex-start; }
+  .hero-meta { gap: 14px; }
+  .hero-meta .vr { display: none; }
+  .cta-band { padding: 72px 0; }
+  .cta-actions { flex-direction: column; align-items: center; width: 100%; }
+  .cta-actions .btn { width: 100%; justify-content: center; }
+  .sol-foot { flex-direction: column; align-items: flex-start; gap: 6px; }
+  .sol-foot-note { text-align: left; }
+  .quote-wrap blockquote { font-size: clamp(18px, 5vw, 22px); }
+  .sc-panel { width: calc(100vw - 16px); right: 0; }
+  .solchat { right: 8px; bottom: 16px; }
 }
 
 .sc-calendly-btn { display: block; margin-top: 12px; background: var(--sun-grad); color: #fff; text-decoration: none; font-size: 14px; font-weight: 600; padding: 11px 20px; border-radius: 100px; text-align: center; transition: opacity .15s; font-family: var(--font-ui); }

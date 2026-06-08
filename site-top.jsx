@@ -23,25 +23,25 @@ function Nav() {
   }, []);
   const links = [["Sunsuite", "#sunsuite"], ["Sol", "#sol"], ["Services", "#services"], ["Results", "#results"]];
   return (
-    <header className={"nav" + (scrolled ? " nav-on" : "")}>
+    <header className={"nav" + (scrolled ? " nav-on" : "")} role="banner">
       <div className="wrap nav-inner">
-        <a href="#top" className="nav-logo"><Logo h={42} /></a>
-        <nav className="nav-links">
+        <a href="#top" className="nav-logo" aria-label="Sun Digital Marketing — home"><Logo h={42} /></a>
+        <nav className="nav-links" aria-label="Main navigation">
           {links.map(([l, h]) => <a key={l} href={h}>{l}</a>)}
         </nav>
         <div className="nav-cta">
-          <a href="tel:+13032188570" className="nav-phone">
-            <svg width="15" height="15" viewBox="0 0 16 16" fill="none"><path d="M5.5 2.5 7 5 5.5 6.5a8 8 0 0 0 4 4L11 9l2.5 1.5v2a1.5 1.5 0 0 1-1.7 1.5C6.6 13.4 2.6 9.4 2 4.2A1.5 1.5 0 0 1 3.5 2.5h2Z" stroke="currentColor" strokeWidth="1.3" strokeLinejoin="round"/></svg>
+          <a href="tel:+13032188570" className="nav-phone" aria-label="Call Sun Digital Marketing at (303) 218-8570">
+            <svg width="15" height="15" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M5.5 2.5 7 5 5.5 6.5a8 8 0 0 0 4 4L11 9l2.5 1.5v2a1.5 1.5 0 0 1-1.7 1.5C6.6 13.4 2.6 9.4 2 4.2A1.5 1.5 0 0 1 3.5 2.5h2Z" stroke="currentColor" strokeWidth="1.3" strokeLinejoin="round"/></svg>
             (303) 218-8570
           </a>
           <button className="btn btn-sun nav-book" onClick={() => window.openSol && window.openSol()}>Book a call</button>
         </div>
-        <button className="nav-burger" aria-label="Menu" onClick={() => setOpen(!open)}>
+        <button className="nav-burger" aria-label={open ? "Close menu" : "Open menu"} aria-expanded={open} aria-controls="nav-mobile-menu" onClick={() => setOpen(!open)}>
           <span/><span/><span/>
         </button>
       </div>
       {open && (
-        <div className="nav-mobile">
+        <div id="nav-mobile-menu" className="nav-mobile" role="navigation" aria-label="Mobile navigation">
           {links.map(([l, h]) => <a key={l} href={h} onClick={() => setOpen(false)}>{l}</a>)}
           <a href="tel:+13032188570">(303) 218-8570</a>
           <button className="btn btn-sun" onClick={() => { setOpen(false); window.openSol && window.openSol(); }}>Book a call</button>
@@ -89,7 +89,7 @@ function SunGlyph({ size = 120 }) {
 
 function Hero() {
   return (
-    <section id="top" className="hero hero-bleed">
+    <section id="main-content" className="hero hero-bleed">
       <div className="hero-bg" aria-hidden="true">
         <img src="assets/hero-team.jpg" alt=""/>
         <div className="hero-scrim"></div>

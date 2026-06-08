@@ -88,9 +88,9 @@ function Sol() {
                     <div className="sol-item-h"><span className={"pip pip-" + s.sev}></span>{s.title}</div>
                     <p>{s.body}</p>
                     {s.sev !== "green" && (
-                      <div className="sol-item-act">
-                        <button className="sol-approve">Approve fix</button>
-                        <button className="sol-view">View</button>
+                      <div className="sol-item-act" aria-hidden="true">
+                        <button className="sol-approve" tabIndex="-1">Approve fix</button>
+                        <button className="sol-view" tabIndex="-1">View</button>
                       </div>
                     )}
                   </div>

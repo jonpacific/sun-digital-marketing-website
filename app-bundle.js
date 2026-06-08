@@ -43,16 +43,19 @@ function Nav() {
   }, []);
   const links = [["Sunsuite", "#sunsuite"], ["Sol", "#sol"], ["Services", "#services"], ["Results", "#results"]];
   return /*#__PURE__*/React.createElement("header", {
-    className: "nav" + (scrolled ? " nav-on" : "")
+    className: "nav" + (scrolled ? " nav-on" : ""),
+    role: "banner"
   }, /*#__PURE__*/React.createElement("div", {
     className: "wrap nav-inner"
   }, /*#__PURE__*/React.createElement("a", {
     href: "#top",
-    className: "nav-logo"
+    className: "nav-logo",
+    "aria-label": "Sun Digital Marketing \u2014 home"
   }, /*#__PURE__*/React.createElement(Logo, {
     h: 42
   })), /*#__PURE__*/React.createElement("nav", {
-    className: "nav-links"
+    className: "nav-links",
+    "aria-label": "Main navigation"
   }, links.map(([l, h]) => /*#__PURE__*/React.createElement("a", {
     key: l,
     href: h
@@ -60,12 +63,14 @@ function Nav() {
     className: "nav-cta"
   }, /*#__PURE__*/React.createElement("a", {
     href: "tel:+13032188570",
-    className: "nav-phone"
+    className: "nav-phone",
+    "aria-label": "Call Sun Digital Marketing at (303) 218-8570"
   }, /*#__PURE__*/React.createElement("svg", {
     width: "15",
     height: "15",
     viewBox: "0 0 16 16",
-    fill: "none"
+    fill: "none",
+    "aria-hidden": "true"
   }, /*#__PURE__*/React.createElement("path", {
     d: "M5.5 2.5 7 5 5.5 6.5a8 8 0 0 0 4 4L11 9l2.5 1.5v2a1.5 1.5 0 0 1-1.7 1.5C6.6 13.4 2.6 9.4 2 4.2A1.5 1.5 0 0 1 3.5 2.5h2Z",
     stroke: "currentColor",
@@ -76,10 +81,15 @@ function Nav() {
     onClick: () => window.openSol && window.openSol()
   }, "Book a call")), /*#__PURE__*/React.createElement("button", {
     className: "nav-burger",
-    "aria-label": "Menu",
+    "aria-label": open ? "Close menu" : "Open menu",
+    "aria-expanded": open,
+    "aria-controls": "nav-mobile-menu",
     onClick: () => setOpen(!open)
   }, /*#__PURE__*/React.createElement("span", null), /*#__PURE__*/React.createElement("span", null), /*#__PURE__*/React.createElement("span", null))), open && /*#__PURE__*/React.createElement("div", {
-    className: "nav-mobile"
+    id: "nav-mobile-menu",
+    className: "nav-mobile",
+    role: "navigation",
+    "aria-label": "Mobile navigation"
   }, links.map(([l, h]) => /*#__PURE__*/React.createElement("a", {
     key: l,
     href: h,
@@ -173,7 +183,7 @@ function SunGlyph({
 }
 function Hero() {
   return /*#__PURE__*/React.createElement("section", {
-    id: "top",
+    id: "main-content",
     className: "hero hero-bleed"
   }, /*#__PURE__*/React.createElement("div", {
     className: "hero-bg",
@@ -564,11 +574,14 @@ function Sol() {
   }, /*#__PURE__*/React.createElement("span", {
     className: "pip pip-" + s.sev
   }), s.title), /*#__PURE__*/React.createElement("p", null, s.body), s.sev !== "green" && /*#__PURE__*/React.createElement("div", {
-    className: "sol-item-act"
+    className: "sol-item-act",
+    "aria-hidden": "true"
   }, /*#__PURE__*/React.createElement("button", {
-    className: "sol-approve"
+    className: "sol-approve",
+    tabIndex: "-1"
   }, "Approve fix"), /*#__PURE__*/React.createElement("button", {
-    className: "sol-view"
+    className: "sol-view",
+    tabIndex: "-1"
   }, "View")))), playing && /*#__PURE__*/React.createElement("div", {
     className: "sol-typing"
   }, /*#__PURE__*/React.createElement("span", null), /*#__PURE__*/React.createElement("span", null), /*#__PURE__*/React.createElement("span", null))), /*#__PURE__*/React.createElement("div", {
@@ -908,7 +921,10 @@ function SolChat() {
     strokeLinecap: "round"
   })))), /*#__PURE__*/React.createElement("div", {
     className: "sc-body",
-    ref: bodyRef
+    ref: bodyRef,
+    role: "log",
+    "aria-live": "polite",
+    "aria-label": "Conversation with Sol"
   }, msgs.map((m, i) => /*#__PURE__*/React.createElement("div", {
     key: i,
     className: "sc-msg sc-" + m.who
@@ -926,6 +942,7 @@ function SolChat() {
     onChange: e => setInput(e.target.value),
     onKeyDown: handleKey,
     placeholder: "Ask Sol anything...",
+    "aria-label": "Message Sol",
     autoFocus: true
   }), /*#__PURE__*/React.createElement("button", {
     onClick: send,

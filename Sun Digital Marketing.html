@@ -3,28 +3,92 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Primary SEO -->
+<title>Sun Digital Marketing | AI-Powered Digital Marketing Agency | Savannah & NJ</title>
+<meta name="description" content="Sun Digital Marketing is the outsourced marketing department for small businesses. Powered by Sunsuite — our proprietary 34-tool AI platform — and Sol, an AI that works the overnight shift. Savannah, GA and New Jersey. Since 2009.">
+<link rel="canonical" href="https://sundigitalmarketing.com/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://sundigitalmarketing.com/">
+<meta property="og:site_name" content="Sun Digital Marketing">
+<meta property="og:title" content="Sun Digital Marketing | AI-Powered Digital Marketing Agency">
+<meta property="og:description" content="The outsourced marketing department for small businesses. Proprietary AI platform. PPC, SEO, web design, email. Savannah & NJ. Since 2009.">
+<meta property="og:image" content="https://sundigitalmarketing.com/assets/hero-team.jpg">
+<meta property="og:locale" content="en_US">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Sun Digital Marketing | AI-Powered Digital Marketing Agency">
+<meta name="twitter:description" content="The outsourced marketing department for small businesses. Proprietary AI platform. PPC, SEO, web design, email. Savannah & NJ. Since 2009.">
+<meta name="twitter:image" content="https://sundigitalmarketing.com/assets/hero-team.jpg">
+
+<!-- Geo -->
+<meta name="geo.region" content="US-GA">
+<meta name="geo.placename" content="Savannah, Georgia">
+<meta name="geo.position" content="32.0835;-81.0998">
+<meta name="ICBM" content="32.0835, -81.0998">
+
+<!-- Icons -->
 <link rel="icon" type="image/png" href="assets/sun-mark.png">
 <link rel="apple-touch-icon" href="assets/sun-mark.png">
-<title>Sun Digital Marketing | AI-Driven Digital Marketing</title>
-<meta name="description" content="Sun Digital is the outsourced marketing department for small businesses, powered by Sunsuite, our 34-tool proprietary AI platform, and Sol, an AI layer that works the overnight shift. Savannah and NYC. Since 2009.">
+<meta name="theme-color" content="#FF8A3D">
+
+<!-- Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Hanken+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
 <link rel="stylesheet" href="styles.css">
 <link rel="stylesheet" href="components.css">
+
+<!-- LocalBusiness schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MarketingAgency",
+  "name": "Sun Digital Marketing",
+  "url": "https://sundigitalmarketing.com",
+  "logo": "https://sundigitalmarketing.com/assets/logo.png",
+  "image": "https://sundigitalmarketing.com/assets/hero-team.jpg",
+  "description": "The outsourced marketing department for small businesses, powered by Sunsuite, a 34-tool proprietary AI platform, and Sol, an AI layer that works the overnight shift.",
+  "foundingDate": "2009",
+  "founders": [
+    {"@type": "Person", "name": "Jon Pacific"},
+    {"@type": "Person", "name": "Trevor Clendenin"}
+  ],
+  "areaServed": {"@type": "Country", "name": "United States"},
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "2225 Walz Dr.",
+    "addressLocality": "Savannah",
+    "addressRegion": "GA",
+    "postalCode": "31404",
+    "addressCountry": "US"
+  },
+  "telephone": "+13032188570",
+  "email": "admin@sundigitalmarketing.com",
+  "priceRange": "$$",
+  "sameAs": [],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Digital Marketing Services",
+    "itemListElement": [
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "PPC Advertising", "description": "Google, Meta, Instagram, YouTube, Bing, Pinterest ad management"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Local SEO & AI Search", "description": "Google map pack rankings and AI search visibility on ChatGPT, Claude, Gemini, Perplexity"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Web Design", "description": "WordPress and Shopify sites with Core Web Vitals and CRO optimization"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Email Marketing", "description": "Klaviyo and Constant Contact flows and campaigns"}}
+    ]
+  }
+}
+</script>
 </head>
 <body>
+<a href="#main-content" class="skip-link">Skip to main content</a>
 <div id="root"></div>
-
 <script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
-
-<script type="text/babel" src="site-top.jsx"></script>
-<script type="text/babel" src="sunsuite.jsx"></script>
-<script type="text/babel" src="sol.jsx"></script>
-<script type="text/babel" src="site-bottom.jsx"></script>
-<script type="text/babel" src="chatbot.jsx"></script>
-<script type="text/babel" src="app.jsx"></script>
+<script src="app-bundle.js"></script>
 </body>
 </html>
