@@ -13,7 +13,7 @@ function SvcIcon({ name }) {
 
 const SERVICES = [
   ["ppc", "PPC Advertising", "Campaigns that pay for themselves, managed daily, not set-and-forget.", ["Google", "Meta", "Instagram", "YouTube", "Bing", "Pinterest"]],
-  ["seo", "Local SEO & AI Search", "Rank in Google’s map pack and get cited by the AI engines people now ask first.", ["Local SEO", "ChatGPT", "Claude", "Gemini", "Perplexity"]],
+  ["seo", "Local SEO & AI Search", "Rank in Google's map pack and get cited by the AI engines people now ask first.", ["Local SEO", "ChatGPT", "Claude", "Gemini", "Perplexity"]],
   ["web", "Web Design", "Fast, conversion-built sites we keep healthy long after launch.", ["WordPress", "Shopify", "Core Web Vitals", "CRO"]],
   ["email", "Email Marketing", "Flows and campaigns that turn one-time buyers into regulars.", ["Klaviyo", "Constant Contact", "Automations"]],
 ];
@@ -26,8 +26,8 @@ function Services() {
           <span className="eyebrow">What We Run</span>
           <h2 className="sec-title dark-title">Your whole marketing<br/>department, outsourced.</h2>
           <p className="sec-lead dark-lead">
-            Big enough to need serious marketing, too small to staff it in-house? That’s exactly
-            who we’re built for. You get a full team and a platform for less than one hire.
+            Big enough to need serious marketing, too small to staff it in-house? That's exactly
+            who we're built for. You get a full team and a platform for less than one hire.
           </p>
         </div>
         <div className="svc-grid">
@@ -64,13 +64,13 @@ function Results() {
           ))}
         </div>
 
-        <div className=”quote-wrap reveal”>
-          <div className=”quote-mark grad-text”>”</div>
+        <div className="quote-wrap reveal">
+          <div className="quote-mark grad-text">"</div>
           <blockquote>
-            Jon and Trevor are incredibly professional, responsive, and knowledgeable. They take the time to explain strategy, answer questions, and make sure everything is running smoothly. It’s clear they genuinely care about their clients’ success.
+            Jon and Trevor are incredibly professional, responsive, and knowledgeable. They take the time to explain strategy, answer questions, and make sure everything is running smoothly. It's clear they genuinely care about their clients' success.
           </blockquote>
-          <div className=”quote-by”>
-            <div className=”quote-ava” aria-hidden=”true”>MA</div>
+          <div className="quote-by">
+            <div className="quote-ava" aria-hidden="true">MA</div>
             <div>
               <b>Marc Alhanaty</b>
               <small>Google Review ★★★★★</small>
@@ -99,12 +99,12 @@ function Founders() {
           <h2 className="sec-title dark-title">Built by two people who got tired of the tools.</h2>
           <p className="founders-p">
             Jon Pacific and Trevor Clendenin started Sun Digital in 2009. After more than fifteen years of
-            stitching together other people’s software to serve small businesses, they did the thing
+            stitching together other people's software to serve small businesses, they did the thing
             most agencies only talk about: they built their own platform.
           </p>
           <p className="founders-p">
             Sunsuite and Sol are the result, and the reason most of our clients have been with us
-            for more than five years. We’re not the biggest agency. We’re the one that built the thing.
+            for more than five years. We're not the biggest agency. We're the one that built the thing.
           </p>
         </div>
       </div>
@@ -119,8 +119,8 @@ function FinalCTA() {
       <div className="wrap cta-inner">
         <img src="assets/sun-mark.png" alt="" className="cta-mark"/>
         <h2>See what Sol finds<br/>in your marketing.</h2>
-        <p>Book a 30-minute strategy call. We’ll run your business through Sunsuite live and
-          show you exactly what’s working, what’s leaking, and what we’d fix first.</p>
+        <p>Book a 30-minute strategy call. We'll run your business through Sunsuite live and
+          show you exactly what's working, what's leaking, and what we'd fix first.</p>
         <div className="cta-actions">
           <button className="btn btn-sun" onClick={() => window.openSol && window.openSol()}>
             Book a strategy call <Arrow/>
