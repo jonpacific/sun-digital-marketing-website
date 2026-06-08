@@ -1,0 +1,122 @@
+/* ============================================================
+   Sun Digital Marketing - design system
+   ============================================================ */
+:root {
+  /* sun gradient */
+  --sun-1: #FF5247;   /* coral red   */
+  --sun-2: #FF8A3D;   /* orange      */
+  --sun-3: #FFC24B;   /* gold        */
+  --sun-grad: linear-gradient(115deg, var(--sun-1) 0%, var(--sun-2) 48%, var(--sun-3) 100%);
+  --sun-grad-soft: linear-gradient(115deg, #FF5247 0%, #FF9A47 60%, #FFC24B 100%);
+
+  /* light surfaces */
+  --paper: #FAF7F3;
+  --paper-2: #FFFFFF;
+  --ink: #1A1512;
+  --ink-2: #4A423B;
+  --muted: #877D73;
+  --hair: rgba(26, 21, 18, 0.10);
+  --hair-2: rgba(26, 21, 18, 0.06);
+
+  /* dark surfaces */
+  --night: #0C0908;
+  --night-2: #15100E;
+  --night-3: #1E1815;
+  --night-hair: rgba(255, 255, 255, 0.09);
+  --night-hair-2: rgba(255, 255, 255, 0.05);
+  --night-ink: #F4EEE8;
+  --night-muted: #9A8E83;
+
+  --maxw: 1180px;
+  --r: 16px;
+  --r-lg: 26px;
+
+  --font-display: "Plus Jakarta Sans", "Hanken Grotesk", system-ui, sans-serif;
+  --font-body: "Hanken Grotesk", system-ui, sans-serif;
+  --font-mono: "Space Mono", ui-monospace, monospace;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  background: var(--paper);
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 700; margin: 0; letter-spacing: -0.025em; line-height: 1.04; }
+p { margin: 0; }
+a { color: inherit; text-decoration: none; }
+img { max-width: 100%; display: block; }
+button { font-family: inherit; cursor: pointer; border: none; background: none; }
+::selection { background: var(--sun-2); color: #fff; }
+
+.wrap { max-width: var(--maxw); margin: 0 auto; padding: 0 32px; }
+
+/* ---- text helpers ---- */
+.grad-text {
+  background: var(--sun-grad);
+  -webkit-background-clip: text; background-clip: text;
+  -webkit-text-fill-color: transparent; color: transparent;
+}
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 12.5px; letter-spacing: 0.22em; text-transform: uppercase;
+  font-weight: 400;
+  display: inline-flex; align-items: center; gap: 10px;
+}
+.eyebrow::before {
+  content: ""; width: 26px; height: 1px; background: var(--sun-2); display: inline-block;
+}
+.eyebrow.center::after {
+  content: ""; width: 26px; height: 1px; background: var(--sun-2); display: inline-block;
+}
+
+/* ---- buttons ---- */
+.btn {
+  display: inline-flex; align-items: center; gap: 10px;
+  font-family: var(--font-display); font-weight: 600; font-size: 15px;
+  padding: 14px 24px; border-radius: 100px;
+  transition: transform .18s ease, box-shadow .25s ease, background .2s ease;
+  white-space: nowrap;
+}
+.btn-sun {
+  background: var(--sun-grad); color: #fff;
+  box-shadow: 0 8px 24px -8px rgba(255,90,60,.55);
+}
+.btn-sun:hover { transform: translateY(-2px); box-shadow: 0 14px 34px -8px rgba(255,90,60,.65); }
+.btn-ghost { border: 1px solid var(--hair); color: var(--ink); }
+.btn-ghost:hover { border-color: var(--ink); transform: translateY(-2px); }
+.btn-ghost-dark { border: 1px solid var(--night-hair); color: var(--night-ink); }
+.btn-ghost-dark:hover { border-color: rgba(255,255,255,.4); transform: translateY(-2px); }
+
+.btn .arr { transition: transform .2s ease; }
+.btn:hover .arr { transform: translate(3px, 0); }
+
+/* ---- sun dot mark (recurring motif) ---- */
+.sun-dots { display: grid; }
+
+/* ---- section rhythm ---- */
+section { position: relative; }
+.sec-pad { padding: 120px 0; }
+.dark { background: var(--night); color: var(--night-ink); }
+.dark h1, .dark h2, .dark h3 { color: var(--night-ink); }
+
+/* reveal on scroll - use keyframe animation (transitions don't complete reliably in preview) */
+.reveal { opacity: 0; }
+.reveal.in { animation: revealIn .7s cubic-bezier(.2,.7,.2,1) both; }
+@keyframes revealIn { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: none; } }
+.reveal.reveal-shown { opacity: 1 !important; transform: none !important; animation: none !important; }
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal { opacity: 1; transform: none; animation: none; }
+  html { scroll-behavior: auto; }
+}
+
+@media (max-width: 860px) {
+  .wrap { padding: 0 20px; }
+  .sec-pad { padding: 80px 0; }
+}
