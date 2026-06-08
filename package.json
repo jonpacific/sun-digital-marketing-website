@@ -22,5 +22,8 @@
     "@babel/cli": "^7.29.7",
     "@babel/core": "^7.29.7",
     "@babel/preset-react": "^7.29.7"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.102.0"
   }
 }
