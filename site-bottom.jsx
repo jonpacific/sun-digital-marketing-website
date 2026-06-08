@@ -95,7 +95,7 @@ function Founders() {
           ))}
         </div>
         <div className="founders-copy reveal">
-          <span className="eyebrow">Savannah • New York</span>
+          <span className="eyebrow">Savannah • New Jersey</span>
           <h2 className="sec-title dark-title">Built by two people who got tired of the tools.</h2>
           <p className="founders-p">
             Jon Pacific and Trevor Clendenin started Sun Digital in 2009. After more than fifteen years of
@@ -150,7 +150,7 @@ function Footer() {
       </div>
       <div className="wrap footer-base">
         <span>© {new Date().getFullYear()} Sun Digital Marketing. Marketing small business since 2009.</span>
-        <span>Savannah • New York</span>
+        <span>Savannah • New Jersey</span>
       </div>
     </footer>
   );

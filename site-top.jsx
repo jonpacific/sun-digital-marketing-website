@@ -96,7 +96,7 @@ function Hero() {
       </div>
       <div className="wrap hero-inner">
         <div className="hero-copy">
-          <span className="eyebrow reveal">Digital Marketing · Savannah • NYC · Since 2009</span>
+          <span className="eyebrow reveal">Digital Marketing · Savannah • NJ · Since 2009</span>
           <h1 className="hero-h1 reveal">
             Building <span className="grad-text">proprietary AI</span>
             <br/>digital marketing tools

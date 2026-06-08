@@ -189,7 +189,7 @@ function Hero() {
     className: "hero-copy"
   }, /*#__PURE__*/React.createElement("span", {
     className: "eyebrow reveal"
-  }, "Digital Marketing \xB7 Savannah \u2022 NYC \xB7 Since 2009"), /*#__PURE__*/React.createElement("h1", {
+  }, "Digital Marketing \xB7 Savannah \u2022 NJ \xB7 Since 2009"), /*#__PURE__*/React.createElement("h1", {
     className: "hero-h1 reveal"
   }, "Building ", /*#__PURE__*/React.createElement("span", {
     className: "grad-text"
@@ -722,7 +722,7 @@ function Founders() {
     className: "founders-copy reveal"
   }, /*#__PURE__*/React.createElement("span", {
     className: "eyebrow"
-  }, "Savannah \u2022 New York"), /*#__PURE__*/React.createElement("h2", {
+  }, "Savannah \u2022 New Jersey"), /*#__PURE__*/React.createElement("h2", {
     className: "sec-title dark-title"
   }, "Built by two people who got tired of the tools."), /*#__PURE__*/React.createElement("p", {
     className: "founders-p"
@@ -794,7 +794,7 @@ function Footer() {
     }
   }, "Chat with Sol")))), /*#__PURE__*/React.createElement("div", {
     className: "wrap footer-base"
-  }, /*#__PURE__*/React.createElement("span", null, "\xA9 ", new Date().getFullYear(), " Sun Digital Marketing. Marketing small business since 2009."), /*#__PURE__*/React.createElement("span", null, "Savannah \u2022 New York")));
+  }, /*#__PURE__*/React.createElement("span", null, "\xA9 ", new Date().getFullYear(), " Sun Digital Marketing. Marketing small business since 2009."), /*#__PURE__*/React.createElement("span", null, "Savannah \u2022 New Jersey")));
 }
 window.Services = Services;
 window.Results = Results;
