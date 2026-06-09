@@ -98,8 +98,9 @@ function Hero() {
         <div className="hero-copy">
           <span className="eyebrow reveal">Digital Marketing · Savannah • NJ · Since 2009</span>
           <h1 className="hero-h1 reveal">
-            An <span className="grad-text">AI-powered</span> marketing platform
-            <br/>built by digital marketing experts.
+            An <span className="grad-text">AI-powered</span> marketing
+            <br/>platform built by
+            <br/><span className="grad-text">digital marketing</span> experts.
           </h1>
           <p className="hero-sub reveal">
             Sun Digital is the outsourced marketing department for small businesses that have
