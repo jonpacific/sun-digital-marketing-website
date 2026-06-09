@@ -201,9 +201,11 @@ function Hero() {
     className: "eyebrow reveal"
   }, "Digital Marketing \xB7 Savannah \u2022 NJ \xB7 Since 2009"), /*#__PURE__*/React.createElement("h1", {
     className: "hero-h1 reveal"
-  }, "Building ", /*#__PURE__*/React.createElement("span", {
+  }, "An ", /*#__PURE__*/React.createElement("span", {
     className: "grad-text"
-  }, "proprietary AI"), /*#__PURE__*/React.createElement("br", null), "digital marketing tools customized for our clients."), /*#__PURE__*/React.createElement("p", {
+  }, "AI-powered"), /*#__PURE__*/React.createElement("br", null), "marketing platform built by", /*#__PURE__*/React.createElement("br", null), /*#__PURE__*/React.createElement("span", {
+    className: "grad-text"
+  }, "digital marketing experts"), "."), /*#__PURE__*/React.createElement("p", {
     className: "hero-sub reveal"
   }, "Sun Digital is the outsourced marketing department for small businesses that have outgrown doing it themselves. It runs on ", /*#__PURE__*/React.createElement("strong", null, "SunSuite"), ", our 38-tool platform, and is orchestrated by ", /*#__PURE__*/React.createElement("strong", null, "Sol"), ", an AI layer that works the overnight shift so your morning starts with answers, not surprises."), /*#__PURE__*/React.createElement("div", {
     className: "hero-actions reveal"
