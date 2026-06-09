@@ -37,6 +37,7 @@ function App() {
         <FinalCTA/>
       </main>
       <Footer/>
+      <SolChat/>
     </React.Fragment>
   );
 }

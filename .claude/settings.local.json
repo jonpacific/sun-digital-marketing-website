@@ -52,7 +52,8 @@
       "Bash(sed -i '' 's|An <span className=\"grad-text\">AI-powered</span>|An <span className=\"grad-text\">AI-powered</span> marketing platform|' '/Users/jonpacific/Library/CloudStorage/GoogleDrive-jonpacific@gmail.com/My Drive/Sun Digital Marketing/Claude/SunDM/Sun Digital Marketing Website/site-top.jsx')",
       "Bash(sed -i '' 's|<br/>marketing platform built by|<br/>built by|' '/Users/jonpacific/Library/CloudStorage/GoogleDrive-jonpacific@gmail.com/My Drive/Sun Digital Marketing/Claude/SunDM/Sun Digital Marketing Website/site-top.jsx')",
       "Bash(sed -i '' 's|<br/>built by\\\\n.*<br/><span className=\"grad-text\">digital marketing experts</span>\\\\.|<br/>built by <span className=\"grad-text\">digital marketing experts</span>.|' '/Users/jonpacific/Library/CloudStorage/GoogleDrive-jonpacific@gmail.com/My Drive/Sun Digital Marketing/Claude/SunDM/Sun Digital Marketing Website/site-top.jsx')",
-      "Bash(find ~/Downloads ~/Desktop ~/Documents -name \"*3.jpg\" 2>/dev/null | head -10 *)"
+      "Bash(find ~/Downloads ~/Desktop ~/Documents -name \"*3.jpg\" 2>/dev/null | head -10 *)",
+      "WebFetch(domain:docs.retellai.com)"
     ]
   }
 }
