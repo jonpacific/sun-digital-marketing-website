@@ -22,7 +22,7 @@ function SolChat() {
 
   const begin = () => {
     setStarted(true);
-    const greeting = "Hey, I'm Sol — the AI behind Sunsuite. I can answer questions about what we do, or get a strategy call on your calendar. What's up?";
+    const greeting = "Hey, I'm Sol — the AI behind SunSuite. I can answer questions about what we do, or get a strategy call on your calendar. What's up?";
     addSolMsg(greeting);
     setHistory([{ role: "assistant", content: greeting }]);
   };
@@ -71,7 +71,7 @@ function SolChat() {
           <div className="sc-head">
             <div className="sc-id">
               <span className="sc-orb"></span>
-              <div><b>Sol</b><small>Sunsuite AI &middot; online</small></div>
+              <div><b>Sol</b><small>SunSuite AI &middot; online</small></div>
             </div>
             <button className="sc-x" onClick={() => setOpen(false)} aria-label="Close">
               <svg width="16" height="16" viewBox="0 0 16 16"><path d="M4 4l8 8M12 4l-8 8" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round"/></svg>

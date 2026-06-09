@@ -1,4 +1,4 @@
-// ===== Sunsuite platform showcase (dark) =====
+// ===== SunSuite platform showcase (dark) =====
 
 function Sparkline({ points, color = "#FF8A3D", w = 220, h = 56, fill = true }) {
   const max = Math.max(...points), min = Math.min(...points);
@@ -37,7 +37,7 @@ function Dashboard() {
   return (
     <div className="dash">
       <aside className="dash-rail">
-        <div className="dash-brand"><SunGlyph size={26}/> <span>Sunsuite</span></div>
+        <div className="dash-brand"><SunGlyph size={26}/> <span>SunSuite</span></div>
         <nav>
           {nav.map(([l, on]) => <a key={l} className={on ? "on" : ""}>{l}</a>)}
         </nav>
@@ -96,16 +96,16 @@ const TOOL_GROUPS = [
   ["Reporting & Sol", 4, ["Automated reports", "Sol morning briefing", "Goal tracker", "Client portal"]],
 ];
 
-function Sunsuite() {
+function SunSuite() {
   return (
     <section id="sunsuite" className="dark sec-pad sunsuite">
       <div className="sun-haze" aria-hidden="true"></div>
       <div className="wrap">
         <div className="sec-head reveal">
           <span className="eyebrow" style={{ color: "var(--night-muted)" }}>The Platform</span>
-          <h2 className="sec-title">Sunsuite is the nervous system<br/>behind every account we run.</h2>
+          <h2 className="sec-title">SunSuite is the nervous system<br/>behind every account we run.</h2>
           <p className="sec-lead">
-            Thirty-four tools we wrote ourselves, not a rebadged stack of someone else’s software.
+            Thirty-eight tools we wrote ourselves, not a rebadged stack of someone else’s software.
             They watch rankings, paid media, AI search, social, reviews and reporting in one place,
             so nothing slips through the cracks between logins.
           </p>
@@ -114,8 +114,8 @@ function Sunsuite() {
         <div className="reveal"><Dashboard/></div>
 
         <div className="tool-head reveal">
-          <h3>34 tools, working as one</h3>
-          <span className="tool-count"><b>34</b> proprietary tools</span>
+          <h3>38 tools, working as one</h3>
+          <span className="tool-count"><b>38</b> proprietary tools</span>
         </div>
         <div className="tool-grid">
           {TOOL_GROUPS.map(([name, n, tools]) => (
@@ -130,4 +130,4 @@ function Sunsuite() {
   );
 }
 
-window.Sunsuite = Sunsuite; window.Sparkline = Sparkline;
+window.SunSuite = SunSuite; window.Sparkline = Sparkline;

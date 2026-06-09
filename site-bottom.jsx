@@ -49,7 +49,7 @@ function Results() {
   const stats = [
     ["70%+", "of clients have stayed with us 5+ years"],
     ["2009", "the year we started, long before AI was a buzzword"],
-    ["34", "tools we built ourselves, used on every account"],
+    ["38", "tools we built ourselves, used on every account"],
     ["1", "AI layer, Sol, watching while you sleep"],
   ];
   return (
@@ -103,7 +103,7 @@ function Founders() {
             most agencies only talk about: they built their own platform.
           </p>
           <p className="founders-p">
-            Sunsuite and Sol are the result, and the reason most of our clients have been with us
+            SunSuite and Sol are the result, and the reason most of our clients have been with us
             for more than five years. We're not the biggest agency. We're the one that built the thing.
           </p>
         </div>
@@ -119,7 +119,7 @@ function FinalCTA() {
       <div className="wrap cta-inner">
         <img src="assets/sun-mark.png" alt="" className="cta-mark"/>
         <h2>See what Sol finds<br/>in your marketing.</h2>
-        <p>Book a 30-minute strategy call. We'll run your business through Sunsuite live and
+        <p>Book a 30-minute strategy call. We'll run your business through SunSuite live and
           show you exactly what's working, what's leaking, and what we'd fix first.</p>
         <div className="cta-actions">
           <button className="btn btn-sun" onClick={() => window.openSol && window.openSol()}>
@@ -139,11 +139,11 @@ function Footer() {
       <div className="wrap footer-inner">
         <div className="footer-brand">
           <img src="assets/logo.png" alt="Sun Digital Marketing" style={{ height: 30 }}/>
-          <p>The outsourced marketing department for small businesses, built on Sunsuite, run by Sol.</p>
+          <p>The outsourced marketing department for small businesses, built on SunSuite, run by Sol.</p>
           <address className="footer-addr">2225 Walz Dr., Savannah, GA 31404</address>
         </div>
         <div className="footer-cols">
-          <div><h5>Platform</h5><a href="#sunsuite">Sunsuite</a><a href="#sol">Sol</a><a href="#services">Services</a></div>
+          <div><h5>Platform</h5><a href="#sunsuite">SunSuite</a><a href="#sol">Sol</a><a href="#services">Services</a></div>
           <div><h5>Company</h5><a href="#about">About</a><a href="#results">Results</a><a href="#top">Home</a></div>
           <div><h5>Talk to us</h5><a href="tel:+13032188570">(303) 218-8570</a><a href="mailto:admin@sundigitalmarketing.com">admin@sundigitalmarketing.com</a><a onClick={() => window.openSol && window.openSol()} style={{cursor:"pointer"}}>Chat with Sol</a></div>
         </div>

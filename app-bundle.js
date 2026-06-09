@@ -41,7 +41,7 @@ function Nav() {
     });
     return () => window.removeEventListener("scroll", f);
   }, []);
-  const links = [["Sunsuite", "#sunsuite"], ["Sol", "#sol"], ["Services", "#services"], ["Results", "#results"]];
+  const links = [["SunSuite", "#sunsuite"], ["Sol", "#sol"], ["Services", "#services"], ["Results", "#results"]];
   return /*#__PURE__*/React.createElement("header", {
     className: "nav" + (scrolled ? " nav-on" : ""),
     role: "banner"
@@ -203,9 +203,9 @@ function Hero() {
     className: "hero-h1 reveal"
   }, "Building ", /*#__PURE__*/React.createElement("span", {
     className: "grad-text"
-  }, "proprietary AI"), /*#__PURE__*/React.createElement("br", null), "digital marketing tools", /*#__PURE__*/React.createElement("br", null), "customized for our clients."), /*#__PURE__*/React.createElement("p", {
+  }, "proprietary AI"), /*#__PURE__*/React.createElement("br", null), "digital marketing tools customized for our clients."), /*#__PURE__*/React.createElement("p", {
     className: "hero-sub reveal"
-  }, "Sun Digital is the outsourced marketing department for small businesses that have outgrown doing it themselves. It runs on ", /*#__PURE__*/React.createElement("strong", null, "Sunsuite"), ", our 34-tool platform, and is orchestrated by ", /*#__PURE__*/React.createElement("strong", null, "Sol"), ", an AI layer that works the overnight shift so your morning starts with answers, not surprises."), /*#__PURE__*/React.createElement("div", {
+  }, "Sun Digital is the outsourced marketing department for small businesses that have outgrown doing it themselves. It runs on ", /*#__PURE__*/React.createElement("strong", null, "SunSuite"), ", our 38-tool platform, and is orchestrated by ", /*#__PURE__*/React.createElement("strong", null, "Sol"), ", an AI layer that works the overnight shift so your morning starts with answers, not surprises."), /*#__PURE__*/React.createElement("div", {
     className: "hero-actions reveal"
   }, /*#__PURE__*/React.createElement("button", {
     className: "btn btn-sun",
@@ -213,13 +213,13 @@ function Hero() {
   }, "Book a strategy call ", /*#__PURE__*/React.createElement(Arrow, null)), /*#__PURE__*/React.createElement("a", {
     href: "#sunsuite",
     className: "btn btn-ghost"
-  }, "See Sunsuite")), /*#__PURE__*/React.createElement("div", {
+  }, "See SunSuite")), /*#__PURE__*/React.createElement("div", {
     className: "hero-meta reveal"
   }, /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("b", null, "70%+"), /*#__PURE__*/React.createElement("span", null, "of clients stay 5+ years")), /*#__PURE__*/React.createElement("div", {
     className: "vr"
-  }), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("b", null, "17 yrs"), /*#__PURE__*/React.createElement("span", null, "marketing small business")), /*#__PURE__*/React.createElement("div", {
+  }), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("b", null, "27 yrs"), /*#__PURE__*/React.createElement("span", null, "marketing small business")), /*#__PURE__*/React.createElement("div", {
     className: "vr"
-  }), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("b", null, "34 tools"), /*#__PURE__*/React.createElement("span", null, "built in-house"))))), /*#__PURE__*/React.createElement("div", {
+  }), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("b", null, "38 tools"), /*#__PURE__*/React.createElement("span", null, "built in-house"))))), /*#__PURE__*/React.createElement("div", {
     className: "hero-card reveal"
   }, /*#__PURE__*/React.createElement("div", {
     className: "hc-top"
@@ -247,7 +247,7 @@ window.SunGlyph = SunGlyph;
 window.Nav = Nav;
 window.Hero = Hero;
 
-// ===== Sunsuite platform showcase (dark) =====
+// ===== SunSuite platform showcase (dark) =====
 
 function Sparkline({
   points,
@@ -322,7 +322,7 @@ function Dashboard() {
     className: "dash-brand"
   }, /*#__PURE__*/React.createElement(SunGlyph, {
     size: 26
-  }), " ", /*#__PURE__*/React.createElement("span", null, "Sunsuite")), /*#__PURE__*/React.createElement("nav", null, nav.map(([l, on]) => /*#__PURE__*/React.createElement("a", {
+  }), " ", /*#__PURE__*/React.createElement("span", null, "SunSuite")), /*#__PURE__*/React.createElement("nav", null, nav.map(([l, on]) => /*#__PURE__*/React.createElement("a", {
     key: l,
     className: on ? "on" : ""
   }, l))), /*#__PURE__*/React.createElement("div", {
@@ -405,7 +405,7 @@ function Dashboard() {
   }), "2 review requests sent after yesterday\u2019s 5\u2605")))));
 }
 const TOOL_GROUPS = [["Rank Intelligence", 6, ["Daily rank tracker", "Local pack monitor", "Competitor watch", "Keyword-gap finder", "SERP-feature tracker", "Algorithm-shift alerts"]], ["AI Search Visibility", 5, ["ChatGPT citation monitor", "Claude visibility", "Gemini tracker", "Perplexity mentions", "Answer-share index"]], ["Paid Media", 7, ["Google Ads", "Meta & Instagram", "YouTube", "Microsoft Bing", "Pinterest", "Budget pacing", "Spend-anomaly alerts"]], ["Web & Conversion", 5, ["WordPress monitor", "Shopify monitor", "Core Web Vitals", "Form & CTA tracking", "Uptime + speed watch"]], ["Social & Content", 4, ["Multi-platform publisher", "Content calendar", "Post performance", "Auto-repurpose"]], ["Reputation", 3, ["Review-request automation", "Review monitor", "Sentiment digest"]], ["Reporting & Sol", 4, ["Automated reports", "Sol morning briefing", "Goal tracker", "Client portal"]]];
-function Sunsuite() {
+function SunSuite() {
   return /*#__PURE__*/React.createElement("section", {
     id: "sunsuite",
     className: "dark sec-pad sunsuite"
@@ -423,15 +423,15 @@ function Sunsuite() {
     }
   }, "The Platform"), /*#__PURE__*/React.createElement("h2", {
     className: "sec-title"
-  }, "Sunsuite is the nervous system", /*#__PURE__*/React.createElement("br", null), "behind every account we run."), /*#__PURE__*/React.createElement("p", {
+  }, "SunSuite is the nervous system", /*#__PURE__*/React.createElement("br", null), "behind every account we run."), /*#__PURE__*/React.createElement("p", {
     className: "sec-lead"
-  }, "Thirty-four tools we wrote ourselves, not a rebadged stack of someone else\u2019s software. They watch rankings, paid media, AI search, social, reviews and reporting in one place, so nothing slips through the cracks between logins.")), /*#__PURE__*/React.createElement("div", {
+  }, "Thirty-eight tools we wrote ourselves, not a rebadged stack of someone else\u2019s software. They watch rankings, paid media, AI search, social, reviews and reporting in one place, so nothing slips through the cracks between logins.")), /*#__PURE__*/React.createElement("div", {
     className: "reveal"
   }, /*#__PURE__*/React.createElement(Dashboard, null)), /*#__PURE__*/React.createElement("div", {
     className: "tool-head reveal"
-  }, /*#__PURE__*/React.createElement("h3", null, "34 tools, working as one"), /*#__PURE__*/React.createElement("span", {
+  }, /*#__PURE__*/React.createElement("h3", null, "38 tools, working as one"), /*#__PURE__*/React.createElement("span", {
     className: "tool-count"
-  }, /*#__PURE__*/React.createElement("b", null, "34"), " proprietary tools")), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("b", null, "38"), " proprietary tools")), /*#__PURE__*/React.createElement("div", {
     className: "tool-grid"
   }, TOOL_GROUPS.map(([name, n, tools]) => /*#__PURE__*/React.createElement("div", {
     className: "tool-card reveal",
@@ -442,7 +442,7 @@ function Sunsuite() {
     key: t
   }, t))))))));
 }
-window.Sunsuite = Sunsuite;
+window.SunSuite = SunSuite;
 window.Sparkline = Sparkline;
 
 // ===== Sol - AI morning briefing (animated) =====
@@ -541,7 +541,7 @@ function Sol() {
     style: {
       marginLeft: 0
     }
-  }, "Sol is the AI layer that orchestrates all 34 Sunsuite tools. While you\u2019re closed, it sweeps every account, separates noise from signal, and has the answer ready before you\u2019ve had coffee."), /*#__PURE__*/React.createElement("div", {
+  }, "Sol is the AI layer that orchestrates all 38 SunSuite tools. While you\u2019re closed, it sweeps every account, separates noise from signal, and has the answer ready before you\u2019ve had coffee."), /*#__PURE__*/React.createElement("div", {
     className: "sol-caps"
   }, caps.map(([h, b]) => /*#__PURE__*/React.createElement("div", {
     className: "sol-cap",
@@ -689,7 +689,7 @@ function Services() {
   }, t))))))));
 }
 function Results() {
-  const stats = [["70%+", "of clients have stayed with us 5+ years"], ["2009", "the year we started, long before AI was a buzzword"], ["34", "tools we built ourselves, used on every account"], ["1", "AI layer, Sol, watching while you sleep"]];
+  const stats = [["70%+", "of clients have stayed with us 5+ years"], ["2009", "the year we started, long before AI was a buzzword"], ["38", "tools we built ourselves, used on every account"], ["1", "AI layer, Sol, watching while you sleep"]];
   return /*#__PURE__*/React.createElement("section", {
     id: "results",
     className: "sec-pad results"
@@ -741,7 +741,7 @@ function Founders() {
     className: "founders-p"
   }, "Jon Pacific and Trevor Clendenin started Sun Digital in 2009. After more than fifteen years of stitching together other people's software to serve small businesses, they did the thing most agencies only talk about: they built their own platform."), /*#__PURE__*/React.createElement("p", {
     className: "founders-p"
-  }, "Sunsuite and Sol are the result, and the reason most of our clients have been with us for more than five years. We're not the biggest agency. We're the one that built the thing."))));
+  }, "SunSuite and Sol are the result, and the reason most of our clients have been with us for more than five years. We're not the biggest agency. We're the one that built the thing."))));
 }
 function FinalCTA() {
   return /*#__PURE__*/React.createElement("section", {
@@ -755,7 +755,7 @@ function FinalCTA() {
     src: "assets/sun-mark.png",
     alt: "",
     className: "cta-mark"
-  }), /*#__PURE__*/React.createElement("h2", null, "See what Sol finds", /*#__PURE__*/React.createElement("br", null), "in your marketing."), /*#__PURE__*/React.createElement("p", null, "Book a 30-minute strategy call. We'll run your business through Sunsuite live and show you exactly what's working, what's leaking, and what we'd fix first."), /*#__PURE__*/React.createElement("div", {
+  }), /*#__PURE__*/React.createElement("h2", null, "See what Sol finds", /*#__PURE__*/React.createElement("br", null), "in your marketing."), /*#__PURE__*/React.createElement("p", null, "Book a 30-minute strategy call. We'll run your business through SunSuite live and show you exactly what's working, what's leaking, and what we'd fix first."), /*#__PURE__*/React.createElement("div", {
     className: "cta-actions"
   }, /*#__PURE__*/React.createElement("button", {
     className: "btn btn-sun",
@@ -780,13 +780,13 @@ function Footer() {
     style: {
       height: 30
     }
-  }), /*#__PURE__*/React.createElement("p", null, "The outsourced marketing department for small businesses, built on Sunsuite, run by Sol."), /*#__PURE__*/React.createElement("address", {
+  }), /*#__PURE__*/React.createElement("p", null, "The outsourced marketing department for small businesses, built on SunSuite, run by Sol."), /*#__PURE__*/React.createElement("address", {
     className: "footer-addr"
   }, "2225 Walz Dr., Savannah, GA 31404")), /*#__PURE__*/React.createElement("div", {
     className: "footer-cols"
   }, /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("h5", null, "Platform"), /*#__PURE__*/React.createElement("a", {
     href: "#sunsuite"
-  }, "Sunsuite"), /*#__PURE__*/React.createElement("a", {
+  }, "SunSuite"), /*#__PURE__*/React.createElement("a", {
     href: "#sol"
   }, "Sol"), /*#__PURE__*/React.createElement("a", {
     href: "#services"
@@ -841,7 +841,7 @@ function SolChat() {
   };
   const begin = () => {
     setStarted(true);
-    const greeting = "Hey, I'm Sol — the AI behind Sunsuite. I can answer questions about what we do, or get a strategy call on your calendar. What's up?";
+    const greeting = "Hey, I'm Sol — the AI behind SunSuite. I can answer questions about what we do, or get a strategy call on your calendar. What's up?";
     addSolMsg(greeting);
     setHistory([{
       role: "assistant",
@@ -906,7 +906,7 @@ function SolChat() {
     className: "sc-id"
   }, /*#__PURE__*/React.createElement("span", {
     className: "sc-orb"
-  }), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("b", null, "Sol"), /*#__PURE__*/React.createElement("small", null, "Sunsuite AI \xB7 online"))), /*#__PURE__*/React.createElement("button", {
+  }), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("b", null, "Sol"), /*#__PURE__*/React.createElement("small", null, "SunSuite AI \xB7 online"))), /*#__PURE__*/React.createElement("button", {
     className: "sc-x",
     onClick: () => setOpen(false),
     "aria-label": "Close"

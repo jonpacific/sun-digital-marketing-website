@@ -58,7 +58,7 @@ function Sol() {
           <span className="eyebrow" style={{ color: "var(--night-muted)" }}>Meet Sol</span>
           <h2 className="sec-title">Sol works the<br/>overnight shift.</h2>
           <p className="sec-lead" style={{ marginLeft: 0 }}>
-            Sol is the AI layer that orchestrates all 34 Sunsuite tools. While you’re closed,
+            Sol is the AI layer that orchestrates all 38 SunSuite tools. While you’re closed,
             it sweeps every account, separates noise from signal, and has the answer ready
             before you’ve had coffee.
           </p>

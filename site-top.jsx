@@ -21,7 +21,7 @@ function Nav() {
     window.addEventListener("scroll", f, { passive: true });
     return () => window.removeEventListener("scroll", f);
   }, []);
-  const links = [["Sunsuite", "#sunsuite"], ["Sol", "#sol"], ["Services", "#services"], ["Results", "#results"]];
+  const links = [["SunSuite", "#sunsuite"], ["Sol", "#sol"], ["Services", "#services"], ["Results", "#results"]];
   return (
     <header className={"nav" + (scrolled ? " nav-on" : "")} role="banner">
       <div className="wrap nav-inner">
@@ -100,11 +100,11 @@ function Hero() {
           <h1 className="hero-h1 reveal">
             Building <span className="grad-text">proprietary AI</span>
             <br/>digital marketing tools
-            <br/>customized for our clients.
+            customized for our clients.
           </h1>
           <p className="hero-sub reveal">
             Sun Digital is the outsourced marketing department for small businesses that have
-            outgrown doing it themselves. It runs on <strong>Sunsuite</strong>, our 34-tool platform,
+            outgrown doing it themselves. It runs on <strong>SunSuite</strong>, our 38-tool platform,
             and is orchestrated by <strong>Sol</strong>, an AI layer that works the overnight shift so
             your morning starts with answers, not surprises.
           </p>
@@ -112,14 +112,14 @@ function Hero() {
             <button className="btn btn-sun" onClick={() => window.openSol && window.openSol()}>
               Book a strategy call <Arrow/>
             </button>
-            <a href="#sunsuite" className="btn btn-ghost">See Sunsuite</a>
+            <a href="#sunsuite" className="btn btn-ghost">See SunSuite</a>
           </div>
           <div className="hero-meta reveal">
             <div><b>70%+</b><span>of clients stay 5+ years</span></div>
             <div className="vr"></div>
-            <div><b>17 yrs</b><span>marketing small business</span></div>
+            <div><b>27 yrs</b><span>marketing small business</span></div>
             <div className="vr"></div>
-            <div><b>34 tools</b><span>built in-house</span></div>
+            <div><b>38 tools</b><span>built in-house</span></div>
           </div>
         </div>
       </div>
