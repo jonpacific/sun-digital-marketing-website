@@ -203,9 +203,7 @@ function Hero() {
     className: "hero-h1 reveal"
   }, "An ", /*#__PURE__*/React.createElement("span", {
     className: "grad-text"
-  }, "AI-powered"), " marketing platform", /*#__PURE__*/React.createElement("br", null), "built by ", /*#__PURE__*/React.createElement("span", {
-    className: "grad-text"
-  }, "digital marketing experts"), "."), /*#__PURE__*/React.createElement("p", {
+  }, "AI-powered"), " marketing platform", /*#__PURE__*/React.createElement("br", null), "built by digital marketing experts."), /*#__PURE__*/React.createElement("p", {
     className: "hero-sub reveal"
   }, "Sun Digital is the outsourced marketing department for small businesses that have outgrown doing it themselves. It runs on ", /*#__PURE__*/React.createElement("strong", null, "SunSuite"), ", our 38-tool platform, and is orchestrated by ", /*#__PURE__*/React.createElement("strong", null, "Sol"), ", an AI layer that works the overnight shift so your morning starts with answers, not surprises."), /*#__PURE__*/React.createElement("div", {
     className: "hero-actions reveal"
