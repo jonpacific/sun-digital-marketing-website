@@ -76,9 +76,9 @@ function Dashboard() {
           </div>
           <div className="dcard dcard-wide dcard-sol">
             <div className="dcard-h"><span><span className="hc-dot"></span> Sol · this morning</span><small>3 flagged</small></div>
-            <div className="hc-row"><span className="pip pip-red"></span>Rank slip on “emergency plumber savannah”: draft fix ready</div>
+            <div className="hc-row"><span className="pip pip-red"></span>Rank slip on "emergency plumber savannah": draft fix ready</div>
             <div className="hc-row"><span className="pip pip-amber"></span>Meta CPA up 18%: paused worst ad, awaiting your OK</div>
-            <div className="hc-row"><span className="pip pip-green"></span>2 review requests sent after yesterday’s 5★</div>
+            <div className="hc-row"><span className="pip pip-green"></span>2 review requests sent after yesterday's 5★</div>
           </div>
         </div>
       </div>
@@ -87,13 +87,56 @@ function Dashboard() {
 }
 
 const TOOL_GROUPS = [
-  ["Rank Intelligence", 6, ["Daily rank tracker", "Local pack monitor", "Competitor watch", "Keyword-gap finder", "SERP-feature tracker", "Algorithm-shift alerts"]],
-  ["AI Search Visibility", 5, ["ChatGPT citation monitor", "Claude visibility", "Gemini tracker", "Perplexity mentions", "Answer-share index"]],
-  ["Paid Media", 7, ["Google Ads", "Meta & Instagram", "YouTube", "Microsoft Bing", "Pinterest", "Budget pacing", "Spend-anomaly alerts"]],
-  ["Web & Conversion", 5, ["WordPress monitor", "Shopify monitor", "Core Web Vitals", "Form & CTA tracking", "Uptime + speed watch"]],
-  ["Social & Content", 4, ["Multi-platform publisher", "Content calendar", "Post performance", "Auto-repurpose"]],
-  ["Reputation", 3, ["Review-request automation", "Review monitor", "Sentiment digest"]],
-  ["Reporting & Sol", 4, ["Automated reports", "Sol morning briefing", "Goal tracker", "Client portal"]],
+  ["Rankings & Audit", 7, [
+    "SunRank — daily keyword position tracking",
+    "SunVerify — citation accuracy audit",
+    "SunScan — live citation checker",
+    "SunLocal — Google Business Profile performance",
+    "SunMap — sitemap health & coverage audit",
+    "SunTag — Google Tag Manager audit",
+    "SunRival — competitor ranking watch",
+  ]],
+  ["AI & Intelligence", 6, [
+    "SunSignal — AI search visibility tracker",
+    "SunEcho — AI mention monitoring across ChatGPT, Claude, Gemini & Perplexity",
+    "SunGround — local market context research",
+    "SunSeed — brand knowledge initialization",
+    "SunFeed — ongoing knowledge ingestion",
+    "SunLoop — optimization loop engine",
+  ]],
+  ["Paid Media", 3, [
+    "SunBid — Google Ads management",
+    "SunReach — Meta & Instagram ads",
+    "SunEdge — Microsoft & Bing ads",
+  ]],
+  ["Social & Content", 6, [
+    "SunCast — multi-platform social publishing",
+    "SunReel — video content pipeline",
+    "SunForge — campaign planning",
+    "SunCal — campaign calendar",
+    "SunTruth — offering catalog & content validation",
+    "SunList — email list & broadcast",
+  ]],
+  ["Email & CRM", 7, [
+    "SunSort — Gmail triage & prioritization",
+    "SunDraft — AI-assisted email drafting",
+    "SunSweep — email lifecycle automation",
+    "SunThread — contact thread archiving",
+    "SunContact — contact context editing",
+    "SunOpen — new contact creation",
+    "SunClose — client exit interview trigger",
+  ]],
+  ["Client Management", 3, [
+    "SunOnboard — new client setup",
+    "SunRoster — client account directory",
+    "SunRepute — review request automation",
+  ]],
+  ["Reporting", 4, [
+    "SunPulse — weekly performance report",
+    "SunLedger — monthly analytics report",
+    "SunDepth — GA4 historical analysis",
+    "SunTide — market trend analysis",
+  ]],
 ];
 
 function SunSuite() {
@@ -105,7 +148,7 @@ function SunSuite() {
           <span className="eyebrow" style={{ color: "var(--night-muted)" }}>The Platform</span>
           <h2 className="sec-title">SunSuite is the nervous system<br/>behind every account we run.</h2>
           <p className="sec-lead">
-            Thirty-eight tools we wrote ourselves, not a rebadged stack of someone else’s software.
+            Thirty-eight tools we wrote ourselves, not a rebadged stack of someone else's software.
             They watch rankings, paid media, AI search, social, reviews and reporting in one place,
             so nothing slips through the cracks between logins.
           </p>
