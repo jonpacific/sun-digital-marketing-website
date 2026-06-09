@@ -131,7 +131,7 @@ function Hero() {
         <div className="hc-body">
           <b>3 items</b> flagged before 6:00 AM
         </div>
-        <div className="hc-row"><span className="pip pip-red"></span>Google rank slip: “emergency plumber savannah”</div>
+        <div className="hc-row"><span className="pip pip-red"></span>Google rank slip: "emergency plumber savannah"</div>
         <div className="hc-row"><span className="pip pip-amber"></span>Meta CPA up 18% on Retargeting set</div>
         <div className="hc-row"><span className="pip pip-green"></span>New 5★ review: auto-requested 2 more</div>
       </div>
@@ -220,9 +220,9 @@ function Dashboard() {
           </div>
           <div className="dcard dcard-wide dcard-sol">
             <div className="dcard-h"><span><span className="hc-dot"></span> Sol · this morning</span><small>3 flagged</small></div>
-            <div className="hc-row"><span className="pip pip-red"></span>Rank slip on “emergency plumber savannah”: draft fix ready</div>
+            <div className="hc-row"><span className="pip pip-red"></span>Rank slip on "emergency plumber savannah": draft fix ready</div>
             <div className="hc-row"><span className="pip pip-amber"></span>Meta CPA up 18%: paused worst ad, awaiting your OK</div>
-            <div className="hc-row"><span className="pip pip-green"></span>2 review requests sent after yesterday’s 5★</div>
+            <div className="hc-row"><span className="pip pip-green"></span>2 review requests sent after yesterday's 5★</div>
           </div>
         </div>
       </div>
@@ -249,7 +249,7 @@ function SunSuite() {
           <span className="eyebrow" style={{ color: "var(--night-muted)" }}>The Platform</span>
           <h2 className="sec-title">SunSuite is the nervous system<br/>behind every account we run.</h2>
           <p className="sec-lead">
-            Thirty-eight tools we wrote ourselves, not a rebadged stack of someone else’s software.
+            Thirty-eight tools we wrote ourselves, not a rebadged stack of someone else's software.
             They watch rankings, paid media, AI search, social, reviews and reporting in one place,
             so nothing slips through the cracks between logins.
           </p>
@@ -281,10 +281,10 @@ window.SunSuite = SunSuite; window.Sparkline = Sparkline;
 const SOL_SCRIPT = [
   { t: "line", who: "sol", text: "Good morning. I ran the overnight sweep across all 14 of your channels at 5:42 AM." },
   { t: "line", who: "sol", text: "Three things want your attention. Everything else is on track." },
-  { t: "item", sev: "red", title: "Rankings", body: "“emergency plumber savannah” fell from #2 to #6 overnight; a competitor refreshed their page. I drafted updated copy; one tap to approve." },
+  { t: "item", sev: "red", title: "Rankings", body: "\"emergency plumber savannah\" fell from #2 to #6 overnight; a competitor refreshed their page. I drafted updated copy; one tap to approve." },
   { t: "item", sev: "amber", title: "Paid Media", body: "Meta retargeting CPA is up 18% this week. I paused the worst-performing ad and shifted $40/day to the set converting at 4.8× ROAS." },
   { t: "item", sev: "green", title: "Reputation", body: "You earned a 5★ review yesterday. I automatically requested two more from recent happy customers." },
-  { t: "line", who: "sol", text: "That’s it. I’ll keep watching and ping the team if anything moves. Talk soon, Sol." },
+  { t: "line", who: "sol", text: "That's it. I'll keep watching and ping the team if anything moves. Talk soon, Sol." },
 ];
 
 function Sol() {
@@ -336,9 +336,9 @@ function Sol() {
           <span className="eyebrow" style={{ color: "var(--night-muted)" }}>Meet Sol</span>
           <h2 className="sec-title">Sol works the<br/>overnight shift.</h2>
           <p className="sec-lead" style={{ marginLeft: 0 }}>
-            Sol is the AI layer that orchestrates all 38 SunSuite tools. While you’re closed,
+            Sol is the AI layer that orchestrates all 38 SunSuite tools. While you're closed,
             it sweeps every account, separates noise from signal, and has the answer ready
-            before you’ve had coffee.
+            before you've had coffee.
           </p>
           <div className="sol-caps">
             {caps.map(([h, b]) => (

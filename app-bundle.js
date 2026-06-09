@@ -231,7 +231,7 @@ function Hero() {
     className: "hc-row"
   }, /*#__PURE__*/React.createElement("span", {
     className: "pip pip-red"
-  }), "Google rank slip: \u201Cemergency plumber savannah\u201D"), /*#__PURE__*/React.createElement("div", {
+  }), "Google rank slip: \"emergency plumber savannah\""), /*#__PURE__*/React.createElement("div", {
     className: "hc-row"
   }, /*#__PURE__*/React.createElement("span", {
     className: "pip pip-amber"
@@ -394,7 +394,7 @@ function Dashboard() {
     className: "hc-row"
   }, /*#__PURE__*/React.createElement("span", {
     className: "pip pip-red"
-  }), "Rank slip on \u201Cemergency plumber savannah\u201D: draft fix ready"), /*#__PURE__*/React.createElement("div", {
+  }), "Rank slip on \"emergency plumber savannah\": draft fix ready"), /*#__PURE__*/React.createElement("div", {
     className: "hc-row"
   }, /*#__PURE__*/React.createElement("span", {
     className: "pip pip-amber"
@@ -402,7 +402,7 @@ function Dashboard() {
     className: "hc-row"
   }, /*#__PURE__*/React.createElement("span", {
     className: "pip pip-green"
-  }), "2 review requests sent after yesterday\u2019s 5\u2605")))));
+  }), "2 review requests sent after yesterday's 5\u2605")))));
 }
 const TOOL_GROUPS = [["Rank Intelligence", 6, ["Daily rank tracker", "Local pack monitor", "Competitor watch", "Keyword-gap finder", "SERP-feature tracker", "Algorithm-shift alerts"]], ["AI Search Visibility", 5, ["ChatGPT citation monitor", "Claude visibility", "Gemini tracker", "Perplexity mentions", "Answer-share index"]], ["Paid Media", 7, ["Google Ads", "Meta & Instagram", "YouTube", "Microsoft Bing", "Pinterest", "Budget pacing", "Spend-anomaly alerts"]], ["Web & Conversion", 5, ["WordPress monitor", "Shopify monitor", "Core Web Vitals", "Form & CTA tracking", "Uptime + speed watch"]], ["Social & Content", 4, ["Multi-platform publisher", "Content calendar", "Post performance", "Auto-repurpose"]], ["Reputation", 3, ["Review-request automation", "Review monitor", "Sentiment digest"]], ["Reporting & Sol", 4, ["Automated reports", "Sol morning briefing", "Goal tracker", "Client portal"]]];
 function SunSuite() {
@@ -425,7 +425,7 @@ function SunSuite() {
     className: "sec-title"
   }, "SunSuite is the nervous system", /*#__PURE__*/React.createElement("br", null), "behind every account we run."), /*#__PURE__*/React.createElement("p", {
     className: "sec-lead"
-  }, "Thirty-eight tools we wrote ourselves, not a rebadged stack of someone else\u2019s software. They watch rankings, paid media, AI search, social, reviews and reporting in one place, so nothing slips through the cracks between logins.")), /*#__PURE__*/React.createElement("div", {
+  }, "Thirty-eight tools we wrote ourselves, not a rebadged stack of someone else's software. They watch rankings, paid media, AI search, social, reviews and reporting in one place, so nothing slips through the cracks between logins.")), /*#__PURE__*/React.createElement("div", {
     className: "reveal"
   }, /*#__PURE__*/React.createElement(Dashboard, null)), /*#__PURE__*/React.createElement("div", {
     className: "tool-head reveal"
@@ -459,7 +459,7 @@ const SOL_SCRIPT = [{
   t: "item",
   sev: "red",
   title: "Rankings",
-  body: "“emergency plumber savannah” fell from #2 to #6 overnight; a competitor refreshed their page. I drafted updated copy; one tap to approve."
+  body: "\"emergency plumber savannah\" fell from #2 to #6 overnight; a competitor refreshed their page. I drafted updated copy; one tap to approve."
 }, {
   t: "item",
   sev: "amber",
@@ -473,7 +473,7 @@ const SOL_SCRIPT = [{
 }, {
   t: "line",
   who: "sol",
-  text: "That’s it. I’ll keep watching and ping the team if anything moves. Talk soon, Sol."
+  text: "That's it. I'll keep watching and ping the team if anything moves. Talk soon, Sol."
 }];
 function Sol() {
   const [shown, setShown] = React.useState(0);
@@ -541,7 +541,7 @@ function Sol() {
     style: {
       marginLeft: 0
     }
-  }, "Sol is the AI layer that orchestrates all 38 SunSuite tools. While you\u2019re closed, it sweeps every account, separates noise from signal, and has the answer ready before you\u2019ve had coffee."), /*#__PURE__*/React.createElement("div", {
+  }, "Sol is the AI layer that orchestrates all 38 SunSuite tools. While you're closed, it sweeps every account, separates noise from signal, and has the answer ready before you've had coffee."), /*#__PURE__*/React.createElement("div", {
     className: "sol-caps"
   }, caps.map(([h, b]) => /*#__PURE__*/React.createElement("div", {
     className: "sol-cap",
