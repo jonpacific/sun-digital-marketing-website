@@ -1011,6 +1011,6 @@ function useReveal() {
 }
 function App() {
   useReveal();
-  return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement(Nav, null), /*#__PURE__*/React.createElement("main", null, /*#__PURE__*/React.createElement(Hero, null), /*#__PURE__*/React.createElement(Sunsuite, null), /*#__PURE__*/React.createElement(Sol, null), /*#__PURE__*/React.createElement(Services, null), /*#__PURE__*/React.createElement(Results, null), /*#__PURE__*/React.createElement(Founders, null), /*#__PURE__*/React.createElement(FinalCTA, null)), /*#__PURE__*/React.createElement(Footer, null), /*#__PURE__*/React.createElement(SolChat, null));
+  return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement(Nav, null), /*#__PURE__*/React.createElement("main", null, /*#__PURE__*/React.createElement(Hero, null), /*#__PURE__*/React.createElement(SunSuite, null), /*#__PURE__*/React.createElement(Sol, null), /*#__PURE__*/React.createElement(Services, null), /*#__PURE__*/React.createElement(Results, null), /*#__PURE__*/React.createElement(Founders, null), /*#__PURE__*/React.createElement(FinalCTA, null)), /*#__PURE__*/React.createElement(Footer, null), /*#__PURE__*/React.createElement(SolChat, null));
 }
 ReactDOM.createRoot(document.getElementById("root")).render(/*#__PURE__*/React.createElement(App, null));

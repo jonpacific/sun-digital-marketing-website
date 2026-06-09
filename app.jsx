@@ -29,7 +29,7 @@ function App() {
       <Nav/>
       <main>
         <Hero/>
-        <Sunsuite/>
+        <SunSuite/>
         <Sol/>
         <Services/>
         <Results/>
