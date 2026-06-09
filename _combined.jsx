@@ -30,9 +30,9 @@ function Nav() {
           {links.map(([l, h]) => <a key={l} href={h}>{l}</a>)}
         </nav>
         <div className="nav-cta">
-          <a href="tel:+13032188570" className="nav-phone" aria-label="Call Sun Digital Marketing at (303) 218-8570">
+          <a href="tel:+19122267530" className="nav-phone" aria-label="Call Sun Digital Marketing at (912) 226-7530">
             <svg width="15" height="15" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M5.5 2.5 7 5 5.5 6.5a8 8 0 0 0 4 4L11 9l2.5 1.5v2a1.5 1.5 0 0 1-1.7 1.5C6.6 13.4 2.6 9.4 2 4.2A1.5 1.5 0 0 1 3.5 2.5h2Z" stroke="currentColor" strokeWidth="1.3" strokeLinejoin="round"/></svg>
-            (303) 218-8570
+            (912) 226-7530
           </a>
           <button className="btn btn-sun nav-book" onClick={() => window.openSol && window.openSol()}>Book a call</button>
         </div>
@@ -43,7 +43,7 @@ function Nav() {
       {open && (
         <div id="nav-mobile-menu" className="nav-mobile" role="navigation" aria-label="Mobile navigation">
           {links.map(([l, h]) => <a key={l} href={h} onClick={() => setOpen(false)}>{l}</a>)}
-          <a href="tel:+13032188570">(303) 218-8570</a>
+          <a href="tel:+19122267530">(912) 226-7530</a>
           <button className="btn btn-sun" onClick={() => { setOpen(false); window.openSol && window.openSol(); }}>Book a call</button>
         </div>
       )}
@@ -232,54 +232,54 @@ function Dashboard() {
 
 const TOOL_GROUPS = [
   ["Rankings & Audit", 7, [
-    "SunRank — daily keyword position tracking",
-    "SunVerify — citation accuracy audit",
-    "SunScan — live citation checker",
-    "SunLocal — Google Business Profile performance",
-    "SunMap — sitemap health & coverage audit",
-    "SunTag — Google Tag Manager audit",
-    "SunRival — competitor ranking watch",
+    "SunRank · daily keyword position tracking",
+    "SunVerify · citation accuracy audit",
+    "SunScan · live citation checker",
+    "SunLocal · Google Business Profile performance",
+    "SunMap · sitemap health & coverage audit",
+    "SunTag · Google Tag Manager audit",
+    "SunRival · competitor ranking watch",
   ]],
   ["AI & Intelligence", 6, [
-    "SunSignal — AI search visibility tracker",
-    "SunEcho — AI mention monitoring across ChatGPT, Claude, Gemini & Perplexity",
-    "SunGround — local market context research",
-    "SunSeed — brand knowledge initialization",
-    "SunFeed — ongoing knowledge ingestion",
-    "SunLoop — optimization loop engine",
+    "SunSignal · AI search visibility tracker",
+    "SunEcho · AI mention monitoring across ChatGPT, Claude, Gemini & Perplexity",
+    "SunGround · local market context research",
+    "SunSeed · brand knowledge initialization",
+    "SunFeed · ongoing knowledge ingestion",
+    "SunLoop · optimization loop engine",
   ]],
   ["Paid Media", 3, [
-    "SunBid — Google Ads management",
-    "SunReach — Meta & Instagram ads",
-    "SunEdge — Microsoft & Bing ads",
+    "SunBid · Google Ads management",
+    "SunReach · Meta & Instagram ads",
+    "SunEdge · Microsoft & Bing ads",
   ]],
   ["Social & Content", 6, [
-    "SunCast — multi-platform social publishing",
-    "SunReel — video content pipeline",
-    "SunForge — campaign planning",
-    "SunCal — campaign calendar",
-    "SunTruth — offering catalog & content validation",
-    "SunList — email list & broadcast",
+    "SunCast · multi-platform social publishing",
+    "SunReel · video content pipeline",
+    "SunForge · campaign planning",
+    "SunCal · campaign calendar",
+    "SunTruth · offering catalog & content validation",
+    "SunList · email list & broadcast",
   ]],
   ["Email & CRM", 7, [
-    "SunSort — Gmail triage & prioritization",
-    "SunDraft — AI-assisted email drafting",
-    "SunSweep — email lifecycle automation",
-    "SunThread — contact thread archiving",
-    "SunContact — contact context editing",
-    "SunOpen — new contact creation",
-    "SunClose — client exit interview trigger",
+    "SunSort · Gmail triage & prioritization",
+    "SunDraft · AI-assisted email drafting",
+    "SunSweep · email lifecycle automation",
+    "SunThread · contact thread archiving",
+    "SunContact · contact context editing",
+    "SunOpen · new contact creation",
+    "SunClose · client exit interview trigger",
   ]],
   ["Client Management", 3, [
-    "SunOnboard — new client setup",
-    "SunRoster — client account directory",
-    "SunRepute — review request automation",
+    "SunOnboard · new client setup",
+    "SunRoster · client account directory",
+    "SunRepute · review request automation",
   ]],
   ["Reporting", 4, [
-    "SunPulse — weekly performance report",
-    "SunLedger — monthly analytics report",
-    "SunDepth — GA4 historical analysis",
-    "SunTide — market trend analysis",
+    "SunPulse · weekly performance report",
+    "SunLedger · monthly analytics report",
+    "SunDepth · GA4 historical analysis",
+    "SunTide · market trend analysis",
   ]],
 ];
 
@@ -562,7 +562,7 @@ function FinalCTA() {
           <button className="btn btn-sun" onClick={() => window.openSol && window.openSol()}>
             Book a strategy call <Arrow/>
           </button>
-          <a href="tel:+13032188570" className="btn btn-ghost-dark">Call (303) 218-8570</a>
+          <a href="tel:+19122267530" className="btn btn-ghost-dark">Call (912) 226-7530</a>
         </div>
         <span className="cta-note">No pricing games. No pressure. Just a look at the numbers.</span>
       </div>
@@ -582,7 +582,7 @@ function Footer() {
         <div className="footer-cols">
           <div><h5>Platform</h5><a href="#sunsuite">SunSuite</a><a href="#sol">Sol</a><a href="#services">Services</a></div>
           <div><h5>Company</h5><a href="#about">About</a><a href="#results">Results</a><a href="#top">Home</a></div>
-          <div><h5>Talk to us</h5><a href="tel:+13032188570">(303) 218-8570</a><a href="mailto:admin@sundigitalmarketing.com">admin@sundigitalmarketing.com</a><a onClick={() => window.openSol && window.openSol()} style={{cursor:"pointer"}}>Chat with Sol</a></div>
+          <div><h5>Talk to us</h5><a href="tel:+19122267530">(912) 226-7530</a><a href="mailto:admin@sundigitalmarketing.com">admin@sundigitalmarketing.com</a><a onClick={() => window.openSol && window.openSol()} style={{cursor:"pointer"}}>Chat with Sol</a></div>
         </div>
       </div>
       <div className="wrap footer-base">

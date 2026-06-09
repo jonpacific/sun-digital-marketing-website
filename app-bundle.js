@@ -62,9 +62,9 @@ function Nav() {
   }, l))), /*#__PURE__*/React.createElement("div", {
     className: "nav-cta"
   }, /*#__PURE__*/React.createElement("a", {
-    href: "tel:+13032188570",
+    href: "tel:+19122267530",
     className: "nav-phone",
-    "aria-label": "Call Sun Digital Marketing at (303) 218-8570"
+    "aria-label": "Call Sun Digital Marketing at (912) 226-7530"
   }, /*#__PURE__*/React.createElement("svg", {
     width: "15",
     height: "15",
@@ -76,7 +76,7 @@ function Nav() {
     stroke: "currentColor",
     strokeWidth: "1.3",
     strokeLinejoin: "round"
-  })), "(303) 218-8570"), /*#__PURE__*/React.createElement("button", {
+  })), "(912) 226-7530"), /*#__PURE__*/React.createElement("button", {
     className: "btn btn-sun nav-book",
     onClick: () => window.openSol && window.openSol()
   }, "Book a call")), /*#__PURE__*/React.createElement("button", {
@@ -95,8 +95,8 @@ function Nav() {
     href: h,
     onClick: () => setOpen(false)
   }, l)), /*#__PURE__*/React.createElement("a", {
-    href: "tel:+13032188570"
-  }, "(303) 218-8570"), /*#__PURE__*/React.createElement("button", {
+    href: "tel:+19122267530"
+  }, "(912) 226-7530"), /*#__PURE__*/React.createElement("button", {
     className: "btn btn-sun",
     onClick: () => {
       setOpen(false);
@@ -404,7 +404,7 @@ function Dashboard() {
     className: "pip pip-green"
   }), "2 review requests sent after yesterday's 5\u2605")))));
 }
-const TOOL_GROUPS = [["Rankings & Audit", 7, ["SunRank — daily keyword position tracking", "SunVerify — citation accuracy audit", "SunScan — live citation checker", "SunLocal — Google Business Profile performance", "SunMap — sitemap health & coverage audit", "SunTag — Google Tag Manager audit", "SunRival — competitor ranking watch"]], ["AI & Intelligence", 6, ["SunSignal — AI search visibility tracker", "SunEcho — AI mention monitoring across ChatGPT, Claude, Gemini & Perplexity", "SunGround — local market context research", "SunSeed — brand knowledge initialization", "SunFeed — ongoing knowledge ingestion", "SunLoop — optimization loop engine"]], ["Paid Media", 3, ["SunBid — Google Ads management", "SunReach — Meta & Instagram ads", "SunEdge — Microsoft & Bing ads"]], ["Social & Content", 6, ["SunCast — multi-platform social publishing", "SunReel — video content pipeline", "SunForge — campaign planning", "SunCal — campaign calendar", "SunTruth — offering catalog & content validation", "SunList — email list & broadcast"]], ["Email & CRM", 7, ["SunSort — Gmail triage & prioritization", "SunDraft — AI-assisted email drafting", "SunSweep — email lifecycle automation", "SunThread — contact thread archiving", "SunContact — contact context editing", "SunOpen — new contact creation", "SunClose — client exit interview trigger"]], ["Client Management", 3, ["SunOnboard — new client setup", "SunRoster — client account directory", "SunRepute — review request automation"]], ["Reporting", 4, ["SunPulse — weekly performance report", "SunLedger — monthly analytics report", "SunDepth — GA4 historical analysis", "SunTide — market trend analysis"]]];
+const TOOL_GROUPS = [["Rankings & Audit", 7, ["SunRank · daily keyword position tracking", "SunVerify · citation accuracy audit", "SunScan · live citation checker", "SunLocal · Google Business Profile performance", "SunMap · sitemap health & coverage audit", "SunTag · Google Tag Manager audit", "SunRival · competitor ranking watch"]], ["AI & Intelligence", 6, ["SunSignal · AI search visibility tracker", "SunEcho · AI mention monitoring across ChatGPT, Claude, Gemini & Perplexity", "SunGround · local market context research", "SunSeed · brand knowledge initialization", "SunFeed · ongoing knowledge ingestion", "SunLoop · optimization loop engine"]], ["Paid Media", 3, ["SunBid · Google Ads management", "SunReach · Meta & Instagram ads", "SunEdge · Microsoft & Bing ads"]], ["Social & Content", 6, ["SunCast · multi-platform social publishing", "SunReel · video content pipeline", "SunForge · campaign planning", "SunCal · campaign calendar", "SunTruth · offering catalog & content validation", "SunList · email list & broadcast"]], ["Email & CRM", 7, ["SunSort · Gmail triage & prioritization", "SunDraft · AI-assisted email drafting", "SunSweep · email lifecycle automation", "SunThread · contact thread archiving", "SunContact · contact context editing", "SunOpen · new contact creation", "SunClose · client exit interview trigger"]], ["Client Management", 3, ["SunOnboard · new client setup", "SunRoster · client account directory", "SunRepute · review request automation"]], ["Reporting", 4, ["SunPulse · weekly performance report", "SunLedger · monthly analytics report", "SunDepth · GA4 historical analysis", "SunTide · market trend analysis"]]];
 function SunSuite() {
   return /*#__PURE__*/React.createElement("section", {
     id: "sunsuite",
@@ -761,9 +761,9 @@ function FinalCTA() {
     className: "btn btn-sun",
     onClick: () => window.openSol && window.openSol()
   }, "Book a strategy call ", /*#__PURE__*/React.createElement(Arrow, null)), /*#__PURE__*/React.createElement("a", {
-    href: "tel:+13032188570",
+    href: "tel:+19122267530",
     className: "btn btn-ghost-dark"
-  }, "Call (303) 218-8570")), /*#__PURE__*/React.createElement("span", {
+  }, "Call (912) 226-7530")), /*#__PURE__*/React.createElement("span", {
     className: "cta-note"
   }, "No pricing games. No pressure. Just a look at the numbers.")));
 }
@@ -797,8 +797,8 @@ function Footer() {
   }, "Results"), /*#__PURE__*/React.createElement("a", {
     href: "#top"
   }, "Home")), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("h5", null, "Talk to us"), /*#__PURE__*/React.createElement("a", {
-    href: "tel:+13032188570"
-  }, "(303) 218-8570"), /*#__PURE__*/React.createElement("a", {
+    href: "tel:+19122267530"
+  }, "(912) 226-7530"), /*#__PURE__*/React.createElement("a", {
     href: "mailto:admin@sundigitalmarketing.com"
   }, "admin@sundigitalmarketing.com"), /*#__PURE__*/React.createElement("a", {
     onClick: () => window.openSol && window.openSol(),

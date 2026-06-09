@@ -36,7 +36,16 @@
       "Bash(grep -n clients '/Users/jonpacific/Library/CloudStorage/GoogleDrive-jonpacific@gmail.com/My Drive/Sun Digital Marketing/Claude/SunDM/Sun Digital Marketing Website/site-top.jsx')",
       "Bash(echo \"=== 17 yrs ===\")",
       "Bash(grep -rn '17\\\\|2009' '/Users/jonpacific/Library/CloudStorage/GoogleDrive-jonpacific@gmail.com/My Drive/Sun Digital Marketing/Claude/SunDM/Sun Digital Marketing Website/site-top.jsx' '/Users/jonpacific/Library/CloudStorage/GoogleDrive-jonpacific@gmail.com/My Drive/Sun Digital Marketing/Claude/SunDM/Sun Digital Marketing Website/site-bottom.jsx' '/Users/jonpacific/Library/CloudStorage/GoogleDrive-jonpacific@gmail.com/My Drive/Sun Digital Marketing/Claude/SunDM/Sun Digital Marketing Website/sunsuite.jsx')",
-      "Bash(echo \"=== 34 tools ===\")"
+      "Bash(echo \"=== 34 tools ===\")",
+      "Bash(netlify status *)",
+      "Bash(node -e \"require\\('./app-bundle.js'\\)\")",
+      "Bash(grep -Pn '[\\\\x{201C}\\\\x{201D}\\\\x{2018}\\\\x{2019}]' sunsuite.jsx sol.jsx site-top.jsx site-bottom.jsx chatbot.jsx)",
+      "Bash(netlify api *)",
+      "Skill(fewer-permission-prompts)",
+      "Skill(fewer-permission-prompts:*)",
+      "Bash(ls -t ~/.claude/projects/ | head -20)",
+      "Bash(mkdir -p \"/Users/jonpacific/Library/CloudStorage/GoogleDrive-jonpacific@gmail.com/My Drive/Sun Digital Marketing/Claude/SunDM/Sun Digital Marketing Website/.claude\")",
+      "Bash(cat \"/Users/jonpacific/Library/Messages/Attachments/96/06/1D08D5D0-C299-4CBC-92F3-A66776DF44EE/sun-naming-conventions.md\")"
     ]
   }
 }

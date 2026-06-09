@@ -30,9 +30,9 @@ function Nav() {
           {links.map(([l, h]) => <a key={l} href={h}>{l}</a>)}
         </nav>
         <div className="nav-cta">
-          <a href="tel:+13032188570" className="nav-phone" aria-label="Call Sun Digital Marketing at (303) 218-8570">
+          <a href="tel:+19122267530" className="nav-phone" aria-label="Call Sun Digital Marketing at (912) 226-7530">
             <svg width="15" height="15" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M5.5 2.5 7 5 5.5 6.5a8 8 0 0 0 4 4L11 9l2.5 1.5v2a1.5 1.5 0 0 1-1.7 1.5C6.6 13.4 2.6 9.4 2 4.2A1.5 1.5 0 0 1 3.5 2.5h2Z" stroke="currentColor" strokeWidth="1.3" strokeLinejoin="round"/></svg>
-            (303) 218-8570
+            (912) 226-7530
           </a>
           <button className="btn btn-sun nav-book" onClick={() => window.openSol && window.openSol()}>Book a call</button>
         </div>
@@ -43,7 +43,7 @@ function Nav() {
       {open && (
         <div id="nav-mobile-menu" className="nav-mobile" role="navigation" aria-label="Mobile navigation">
           {links.map(([l, h]) => <a key={l} href={h} onClick={() => setOpen(false)}>{l}</a>)}
-          <a href="tel:+13032188570">(303) 218-8570</a>
+          <a href="tel:+19122267530">(912) 226-7530</a>
           <button className="btn btn-sun" onClick={() => { setOpen(false); window.openSol && window.openSol(); }}>Book a call</button>
         </div>
       )}
@@ -131,7 +131,7 @@ function Hero() {
         <div className="hc-body">
           <b>3 items</b> flagged before 6:00 AM
         </div>
-        <div className="hc-row"><span className="pip pip-red"></span>Google rank slip: “emergency plumber savannah”</div>
+        <div className="hc-row"><span className="pip pip-red"></span>Google rank slip: "emergency plumber savannah"</div>
         <div className="hc-row"><span className="pip pip-amber"></span>Meta CPA up 18% on Retargeting set</div>
         <div className="hc-row"><span className="pip pip-green"></span>New 5★ review: auto-requested 2 more</div>
       </div>

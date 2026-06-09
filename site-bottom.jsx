@@ -125,7 +125,7 @@ function FinalCTA() {
           <button className="btn btn-sun" onClick={() => window.openSol && window.openSol()}>
             Book a strategy call <Arrow/>
           </button>
-          <a href="tel:+13032188570" className="btn btn-ghost-dark">Call (303) 218-8570</a>
+          <a href="tel:+19122267530" className="btn btn-ghost-dark">Call (912) 226-7530</a>
         </div>
         <span className="cta-note">No pricing games. No pressure. Just a look at the numbers.</span>
       </div>
@@ -145,7 +145,7 @@ function Footer() {
         <div className="footer-cols">
           <div><h5>Platform</h5><a href="#sunsuite">SunSuite</a><a href="#sol">Sol</a><a href="#services">Services</a></div>
           <div><h5>Company</h5><a href="#about">About</a><a href="#results">Results</a><a href="#top">Home</a></div>
-          <div><h5>Talk to us</h5><a href="tel:+13032188570">(303) 218-8570</a><a href="mailto:admin@sundigitalmarketing.com">admin@sundigitalmarketing.com</a><a onClick={() => window.openSol && window.openSol()} style={{cursor:"pointer"}}>Chat with Sol</a></div>
+          <div><h5>Talk to us</h5><a href="tel:+19122267530">(912) 226-7530</a><a href="mailto:admin@sundigitalmarketing.com">admin@sundigitalmarketing.com</a><a onClick={() => window.openSol && window.openSol()} style={{cursor:"pointer"}}>Chat with Sol</a></div>
         </div>
       </div>
       <div className="wrap footer-base">

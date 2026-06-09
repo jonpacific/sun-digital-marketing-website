@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(netlify status)",
+      "Bash(netlify sites:list)",
+      "Bash(netlify deploy *)",
+      "mcp__Claude_Preview__preview_screenshot",
+      "mcp__Claude_Preview__preview_list",
+      "mcp__Claude_Preview__preview_console_logs",
+      "mcp__Claude_Preview__preview_resize",
+      "mcp__0ced1bd0-7378-4cad-b181-7d15d2ec4971__netlify-project-services-reader",
+      "mcp__0ced1bd0-7378-4cad-b181-7d15d2ec4971__netlify-team-services-reader",
+      "mcp__3d62f7cf-df0d-4401-b8a7-67853cc5813a__search_threads",
+      "mcp__3d62f7cf-df0d-4401-b8a7-67853cc5813a__get_thread",
+      "mcp__Claude_in_Chrome__get_page_text",
+      "mcp__Claude_in_Chrome__read_network_requests"
+    ]
+  }
+}

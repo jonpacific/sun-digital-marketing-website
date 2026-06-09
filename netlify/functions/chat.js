@@ -7,7 +7,7 @@ ABOUT SUN DIGITAL MARKETING:
 - Based in Savannah, GA and NYC
 - The outsourced marketing department for small businesses that have outgrown doing it themselves
 - 70%+ of clients stay 5+ years
-- Phone: (303) 218-8570
+- Phone: (912) 226-7530
 - Email: admin@sundigitalmarketing.com
 - Address: 2225 Walz Dr., Savannah, GA 31404
 
@@ -99,7 +99,7 @@ exports.handler = async (event) => {
     console.error("Anthropic error:", err);
     return {
       statusCode: 500,
-      body: JSON.stringify({ error: "Something went wrong. Please call us at (303) 218-8570." }),
+      body: JSON.stringify({ error: "Something went wrong. Please call us at (912) 226-7530." }),
     };
   }
 };
