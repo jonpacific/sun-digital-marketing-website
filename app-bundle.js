@@ -203,7 +203,7 @@ function Hero() {
     className: "hero-h1 reveal"
   }, "An ", /*#__PURE__*/React.createElement("span", {
     className: "grad-text"
-  }, "AI-powered"), /*#__PURE__*/React.createElement("br", null), "marketing platform built by", /*#__PURE__*/React.createElement("br", null), /*#__PURE__*/React.createElement("span", {
+  }, "AI-powered"), " marketing platform", /*#__PURE__*/React.createElement("br", null), "built by ", /*#__PURE__*/React.createElement("span", {
     className: "grad-text"
   }, "digital marketing experts"), "."), /*#__PURE__*/React.createElement("p", {
     className: "hero-sub reveal"
