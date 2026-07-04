@@ -4,7 +4,7 @@ const SYSTEM_PROMPT = `You are Sol, the AI assistant on Sun Digital Marketing's 
 
 ABOUT SUN DIGITAL MARKETING:
 - Full-service digital marketing agency founded in 2009 by Jon Pacific and Trevor Clendenin
-- Based in Savannah, GA and NYC
+- Based in Savannah, GA and New Jersey
 - The outsourced marketing department for small businesses that have outgrown doing it themselves
 - 70%+ of clients stay 5+ years
 - Phone: (912) 226-7530
@@ -78,6 +78,17 @@ exports.handler = async (event) => {
   const { messages } = body;
   if (!messages || !Array.isArray(messages)) {
     return { statusCode: 400, body: JSON.stringify({ error: "messages array required" }) };
+  }
+
+  // Abuse limits: cap conversation length and message size so a bot can't burn API credits
+  if (messages.length > 40 || messages.some(m => typeof m.content !== "string" || m.content.length > 2000)) {
+    return { statusCode: 400, body: JSON.stringify({ error: "Message too long. Please call us at (912) 226-7530." }) };
+  }
+
+  // Only accept requests from our own site
+  const origin = event.headers.origin || event.headers.referer || "";
+  if (origin && !/sundigitalmarketing\.(com|netlify\.app)/.test(origin)) {
+    return { statusCode: 403, body: JSON.stringify({ error: "Forbidden" }) };
   }
 
   const client = new Anthropic({ apiKey });

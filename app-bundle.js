@@ -732,7 +732,8 @@ function Founders() {
     className: "founder-img"
   }, /*#__PURE__*/React.createElement("img", {
     src: src,
-    alt: n
+    alt: n,
+    loading: "lazy"
   })), /*#__PURE__*/React.createElement("b", null, n), /*#__PURE__*/React.createElement("small", null, r)))), /*#__PURE__*/React.createElement("div", {
     className: "founders-copy reveal"
   }, /*#__PURE__*/React.createElement("span", {
@@ -786,19 +787,25 @@ function Footer() {
     className: "footer-addr"
   }, "2225 Walz Dr., Savannah, GA 31404")), /*#__PURE__*/React.createElement("div", {
     className: "footer-cols"
-  }, /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("h5", null, "Platform"), /*#__PURE__*/React.createElement("a", {
+  }, /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
+    className: "footer-h"
+  }, "Platform"), /*#__PURE__*/React.createElement("a", {
     href: "#sunsuite"
   }, "SunSuite"), /*#__PURE__*/React.createElement("a", {
     href: "#sol"
   }, "Sol"), /*#__PURE__*/React.createElement("a", {
     href: "#services"
-  }, "Services")), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("h5", null, "Company"), /*#__PURE__*/React.createElement("a", {
+  }, "Services")), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
+    className: "footer-h"
+  }, "Company"), /*#__PURE__*/React.createElement("a", {
     href: "#about"
   }, "About"), /*#__PURE__*/React.createElement("a", {
     href: "#results"
   }, "Results"), /*#__PURE__*/React.createElement("a", {
     href: "#top"
-  }, "Home")), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("h5", null, "Talk to us"), /*#__PURE__*/React.createElement("a", {
+  }, "Home")), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
+    className: "footer-h"
+  }, "Talk to us"), /*#__PURE__*/React.createElement("a", {
     href: "tel:+19122267530"
   }, "(912) 226-7530"), /*#__PURE__*/React.createElement("a", {
     href: "mailto:admin@sundigitalmarketing.com"

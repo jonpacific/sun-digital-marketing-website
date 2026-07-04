@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-07-04T00:00:00Z",
+  "title": "Design System: Sun Digital Marketing",
+  "extensions": {
+    "colorMeta": {
+      "sun-orange": { "role": "primary", "displayName": "Sun Orange", "canonical": "#FF8A3D", "tonalRamp": ["#331500", "#662B00", "#994100", "#CC5700", "#FF8A3D", "#FFA866", "#FFC599", "#FFE3CC"] },
+      "coral-flare": { "role": "primary", "displayName": "Coral Flare", "canonical": "#FF5247", "tonalRamp": ["#330805", "#66110B", "#991911", "#CC2217", "#FF5247", "#FF7D75", "#FFA8A3", "#FFD4D1"] },
+      "gold-ray": { "role": "primary", "displayName": "Gold Ray", "canonical": "#FFC24B", "tonalRamp": ["#33230A", "#664614", "#99691E", "#CC8C28", "#FFC24B", "#FFCF73", "#FFDD9C", "#FFEECD"] },
+      "warm-paper": { "role": "neutral", "displayName": "Warm Paper", "canonical": "#FAF7F3", "tonalRamp": ["#2B2620", "#565049", "#807A72", "#ABA49B", "#D5CFC7", "#EAE5DF", "#FAF7F3", "#FFFFFF"] },
+      "espresso-ink": { "role": "neutral", "displayName": "Espresso Ink", "canonical": "#1A1512", "tonalRamp": ["#1A1512", "#332A24", "#4D4036", "#665548", "#806A5A", "#99806C", "#B39B87", "#CCB6A3"] },
+      "midnight-roast": { "role": "neutral", "displayName": "Midnight Roast", "canonical": "#0C0908", "tonalRamp": ["#0C0908", "#15100E", "#1E1815", "#332A24", "#4D4036", "#665548", "#806A5A", "#99806C"] },
+      "moonlit-ink": { "role": "neutral", "displayName": "Moonlit Ink", "canonical": "#F4EEE8", "tonalRamp": ["#312C26", "#62584D", "#938473", "#C4B09A", "#DCCFC1", "#E8DED4", "#F4EEE8", "#FBF8F5"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Hero and section headlines; tight -0.025em, 1.04 line-height, grad-text on 1-2 key phrases." },
+      "body": { "displayName": "Body", "purpose": "Paragraphs and section leads." },
+      "label": { "displayName": "Eyebrow", "purpose": "Mono uppercase kickers with 26px sun-orange dash prefix." }
+    },
+    "shadows": [
+      { "name": "sun-glow", "value": "0 8px 24px -8px rgba(255,90,60,.55)", "purpose": "Rest state of primary CTA pills only." },
+      { "name": "sun-glow-lifted", "value": "0 14px 34px -8px rgba(255,90,60,.65)", "purpose": "Hover state, paired with translateY(-2px)." }
+    ],
+    "motion": [
+      { "name": "reveal", "value": "revealIn .7s cubic-bezier(.2,.7,.2,1) both", "purpose": "Scroll-triggered section entrance (opacity + 24px rise); disabled under prefers-reduced-motion." },
+      { "name": "btn-lift", "value": "transform .18s ease, box-shadow .25s ease", "purpose": "Button hover lift." }
+    ],
+    "breakpoints": [
+      { "name": "mobile", "value": "560px" },
+      { "name": "tablet", "value": "860px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Sun Button",
+      "kind": "button",
+      "refersTo": "button-sun",
+      "description": "Primary CTA; gradient pill with warm glow, lifts on hover.",
+      "html": "<button class=\"ds-btn-sun\">Book a strategy call <svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\"><path d=\"M3 8h9M8 4l4 4-4 4\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></button>",
+      "css": ".ds-btn-sun { display: inline-flex; align-items: center; gap: 10px; font-family: 'Plus Jakarta Sans', system-ui, sans-serif; font-weight: 600; font-size: 15px; padding: 14px 24px; border-radius: 100px; border: none; cursor: pointer; background: linear-gradient(115deg, #FF5247 0%, #FF8A3D 48%, #FFC24B 100%); color: #fff; box-shadow: 0 8px 24px -8px rgba(255,90,60,.55); transition: transform .18s ease, box-shadow .25s ease; } .ds-btn-sun:hover { transform: translateY(-2px); box-shadow: 0 14px 34px -8px rgba(255,90,60,.65); } .ds-btn-sun:focus-visible { outline: 2px solid #FF8A3D; outline-offset: 3px; }"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Secondary action; hairline pill on light surfaces.",
+      "html": "<button class=\"ds-btn-ghost\">See SunSuite</button>",
+      "css": ".ds-btn-ghost { display: inline-flex; align-items: center; gap: 10px; font-family: 'Plus Jakarta Sans', system-ui, sans-serif; font-weight: 600; font-size: 15px; padding: 14px 24px; border-radius: 100px; cursor: pointer; background: none; border: 1px solid rgba(26,21,18,.10); color: #1A1512; transition: transform .18s ease, border-color .2s ease; } .ds-btn-ghost:hover { border-color: #1A1512; transform: translateY(-2px); } .ds-btn-ghost:focus-visible { outline: 2px solid #FF8A3D; outline-offset: 3px; }"
+    },
+    {
+      "name": "Eyebrow",
+      "kind": "chip",
+      "refersTo": "label",
+      "description": "Mono uppercase kicker with sun-orange dash; the system's one deliberate label pattern.",
+      "html": "<span class=\"ds-eyebrow\">The Platform</span>",
+      "css": ".ds-eyebrow { font-family: 'Space Mono', ui-monospace, monospace; font-size: 12.5px; letter-spacing: 0.22em; text-transform: uppercase; font-weight: 400; display: inline-flex; align-items: center; gap: 10px; color: #4A423B; } .ds-eyebrow::before { content: ''; width: 26px; height: 1px; background: #FF8A3D; display: inline-block; }"
+    },
+    {
+      "name": "Grad Headline",
+      "kind": "custom",
+      "refersTo": "display",
+      "description": "Section headline with the sunburst gradient on a key phrase.",
+      "html": "<h2 class=\"ds-headline\">An <span class=\"ds-grad\">AI-powered</span> marketing platform</h2>",
+      "css": ".ds-headline { font-family: 'Plus Jakarta Sans', system-ui, sans-serif; font-weight: 700; font-size: 2.5rem; letter-spacing: -0.025em; line-height: 1.04; color: #1A1512; margin: 0; } .ds-grad { background: linear-gradient(115deg, #FF5247 0%, #FF8A3D 48%, #FFC24B 100%); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; color: transparent; }"
+    },
+    {
+      "name": "Night Card",
+      "kind": "card",
+      "refersTo": "night-surface-raised",
+      "description": "Panel on dark sections; tonal layering, hairline border, no shadow.",
+      "html": "<div class=\"ds-night-card\"><b>3 items</b> flagged before 6:00 AM</div>",
+      "css": ".ds-night-card { background: #1E1815; border: 1px solid rgba(255,255,255,.09); border-radius: 16px; padding: 24px; color: #F4EEE8; font-family: 'Hanken Grotesk', system-ui, sans-serif; font-size: 15px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "Warm Machine",
+    "overview": "AI precision wrapped in human warmth. The site sells proprietary AI tooling without ever feeling like an AI startup: no purple, no neon, no glassmorphism. Everything glows in a sunrise ramp — coral through orange to gold — over warm paper by day and roasted brown-black by night. The dark sections are the overnight shift where Sol works; the sun gradient is the light left on.",
+    "keyCharacteristics": [
+      "Sunrise gradient (115deg, coral → orange → gold) as the single brand accent",
+      "Warm-tinted everything: even blacks and grays lean brown, never cool",
+      "Pill buttons that lift 2px on hover with warm glow shadows",
+      "Mono eyebrows with a 26px sun-orange dash prefix",
+      "In-page product demos as the centerpiece imagery"
+    ],
+    "rules": [
+      { "name": "The One Sun Rule", "body": "The gradient is the only saturated color in the system. No secondary hue, ever. Blue, purple, green appear only inside data-viz status pips.", "section": "colors" },
+      { "name": "The Warm Black Rule", "body": "No pure black, no cool gray anywhere. Every neutral carries a brown undertone.", "section": "colors" },
+      { "name": "The Hand-Set Rule", "body": "Headline line breaks are set manually. A single word alone on a line is a bug to fix.", "section": "typography" },
+      { "name": "The Glow-Not-Shadow Rule", "body": "Shadows are warm sun-tinted glows, never neutral black drop shadows. On dark, separate with lighter surface tones.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do use the sun gradient for every primary CTA and grad-text on 1–2 headline phrases per section, max",
+      "Do keep all neutrals warm-brown-tinted",
+      "Do hand-balance headline line breaks at every copy change",
+      "Do hold WCAG 2.1 AA contrast (4.5:1 body, 3:1 large)",
+      "Do give every animation a prefers-reduced-motion alternative",
+      "Do use middots (·) as inline separators"
+    ],
+    "donts": [
+      "Don't look like a generic AI startup: no purple gradients, no neon, no glassmorphism, no sci-fi",
+      "Don't look like a cheap local agency: no stock handshake photos, no template clutter",
+      "Don't go corporate enterprise: no jargon walls, no stiff gray palettes",
+      "Don't be salesy/pushy: no popups, no countdown timers, one conversion path",
+      "Don't introduce a second saturated hue",
+      "Don't use neutral black drop shadows",
+      "Don't use grad-text on body copy or more than ~2 phrases per viewport"
+    ]
+  }
+}

@@ -526,7 +526,7 @@ function Founders() {
         <div className="founders-photos reveal">
           {[["Jon Pacific","Co-founder","assets/jon-pacific.jpg"],["Trevor Clendenin","Co-founder","assets/trevor-clendenin.jpg"]].map(([n, r, src]) => (
             <div className="founder" key={n}>
-              <div className="founder-img"><img src={src} alt={n}/></div>
+              <div className="founder-img"><img src={src} alt={n} loading="lazy"/></div>
               <b>{n}</b><small>{r}</small>
             </div>
           ))}
@@ -580,9 +580,9 @@ function Footer() {
           <address className="footer-addr">2225 Walz Dr., Savannah, GA 31404</address>
         </div>
         <div className="footer-cols">
-          <div><h5>Platform</h5><a href="#sunsuite">SunSuite</a><a href="#sol">Sol</a><a href="#services">Services</a></div>
-          <div><h5>Company</h5><a href="#about">About</a><a href="#results">Results</a><a href="#top">Home</a></div>
-          <div><h5>Talk to us</h5><a href="tel:+19122267530">(912) 226-7530</a><a href="mailto:admin@sundigitalmarketing.com">admin@sundigitalmarketing.com</a><a onClick={() => window.openSol && window.openSol()} style={{cursor:"pointer"}}>Chat with Sol</a></div>
+          <div><div className="footer-h">Platform</div><a href="#sunsuite">SunSuite</a><a href="#sol">Sol</a><a href="#services">Services</a></div>
+          <div><div className="footer-h">Company</div><a href="#about">About</a><a href="#results">Results</a><a href="#top">Home</a></div>
+          <div><div className="footer-h">Talk to us</div><a href="tel:+19122267530">(912) 226-7530</a><a href="mailto:admin@sundigitalmarketing.com">admin@sundigitalmarketing.com</a><a onClick={() => window.openSol && window.openSol()} style={{cursor:"pointer"}}>Chat with Sol</a></div>
         </div>
       </div>
       <div className="wrap footer-base">
