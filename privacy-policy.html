@@ -8,37 +8,37 @@
 <link rel="icon" type="image/png" href="assets/sun-mark.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Hanken+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="components.css">
 <style>
-  :root {
-    --sun-1: #FF5247; --sun-2: #FF8A3D; --sun-3: #FFC24B;
-    --sun-grad: linear-gradient(115deg, var(--sun-1) 0%, var(--sun-2) 48%, var(--sun-3) 100%);
-    --paper: #FAF7F3; --ink: #1A1512; --ink-2: #4A423B; --muted: #6E6459; --hair: rgba(26,21,18,.10);
-    --font-display: "Plus Jakarta Sans", system-ui, sans-serif;
-    --font-body: "Hanken Grotesk", system-ui, sans-serif;
-  }
-  * { box-sizing: border-box; }
-  body { margin: 0; font-family: var(--font-body); background: var(--paper); color: var(--ink); line-height: 1.6; }
-  a { color: var(--sun-2); }
-  :focus-visible { outline: 2px solid var(--sun-2); outline-offset: 3px; }
-  .wrap { max-width: 760px; margin: 0 auto; padding: 64px 24px 96px; }
-  header { display: flex; align-items: center; gap: 12px; margin-bottom: 48px; }
-  header img { height: 34px; }
-  h1 { font-family: var(--font-display); font-weight: 800; font-size: clamp(2rem, 4vw, 2.6rem); margin: 0 0 8px; letter-spacing: -0.02em; }
+  body { padding-top: 78px; } /* clears the fixed nav */
+  .wrap.legal { max-width: 760px; padding: 64px 24px 96px; }
+  h1 { font-size: clamp(2rem, 4vw, 2.6rem); margin: 0 0 8px; }
   .updated { color: var(--muted); font-size: 14px; margin-bottom: 40px; }
   h2 { font-family: var(--font-display); font-weight: 700; font-size: 1.3rem; margin: 40px 0 12px; }
-  p, li { color: var(--ink-2); font-size: 16px; }
-  ul { padding-left: 22px; }
-  a.back { display: inline-flex; align-items: center; gap: 6px; font-family: var(--font-display); font-weight: 600; font-size: 15px; text-decoration: none; margin-top: 48px; }
-  .grad-text { background: var(--sun-grad); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; color: transparent; }
+  .wrap.legal p, .wrap.legal li { color: var(--ink-2); font-size: 16px; line-height: 1.6; }
+  .wrap.legal ul { padding-left: 22px; }
+  .wrap.legal a { color: var(--sun-2); }
+  a.back { display: inline-flex; align-items: center; gap: 6px; font-family: var(--font-display); font-weight: 600; font-size: 15px; text-decoration: none; margin-top: 48px; color: var(--ink) !important; }
 </style>
 </head>
 <body>
-<div class="wrap">
-  <header>
-    <img src="assets/logo.png" alt="Sun Digital Marketing">
-  </header>
 
+<header class="nav nav-on" role="banner">
+  <div class="wrap nav-inner">
+    <a href="/" class="nav-logo" aria-label="Sun Digital Marketing — home"><img src="assets/logo.png" alt="Sun Digital Marketing" style="height:42px;width:auto"></a>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="/#sunsuite">SunSuite</a><a href="/#sol">Sol</a><a href="/#services">Services</a><a href="/#results">Results</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="tel:+19122267530" class="nav-phone" aria-label="Call Sun Digital Marketing at (912) 226-7530">(912) 226-7530</a>
+      <a href="/#top" class="btn btn-sun nav-book">Book a call</a>
+    </div>
+  </div>
+</header>
+
+<div class="wrap legal">
   <h1>Privacy <span class="grad-text">Policy</span></h1>
   <p class="updated">Last updated: July 9, 2026</p>
 
@@ -90,5 +90,25 @@
 
   <a class="back" href="/">&larr; Back to home</a>
 </div>
+
+<footer class="footer">
+  <div class="wrap footer-inner">
+    <div class="footer-brand">
+      <img src="assets/logo.png" alt="Sun Digital Marketing" style="height:30px">
+      <p>The outsourced marketing department for small businesses, built on SunSuite, run by Sol.</p>
+      <address class="footer-addr">2225 Walz Dr., Savannah, GA 31404</address>
+    </div>
+    <div class="footer-cols">
+      <div><div class="footer-h">Platform</div><a href="/#sunsuite">SunSuite</a><a href="/#sol">Sol</a><a href="/#services">Services</a></div>
+      <div><div class="footer-h">Company</div><a href="/#about">About</a><a href="/#results">Results</a><a href="/#top">Home</a></div>
+      <div><div class="footer-h">Talk to us</div><a href="tel:+19122267530">(912) 226-7530</a><a href="mailto:admin@sundigitalmarketing.com">admin@sundigitalmarketing.com</a></div>
+    </div>
+  </div>
+  <div class="wrap footer-base">
+    <span>© 2026 Sun Digital Marketing. Marketing small business since 2009. <a href="/privacy-policy.html">Privacy Policy</a></span>
+    <span>Savannah • New Jersey</span>
+  </div>
+</footer>
+
 </body>
 </html>
