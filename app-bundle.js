@@ -816,7 +816,9 @@ function Footer() {
     }
   }, "Chat with Sol")))), /*#__PURE__*/React.createElement("div", {
     className: "wrap footer-base"
-  }, /*#__PURE__*/React.createElement("span", null, "\xA9 ", new Date().getFullYear(), " Sun Digital Marketing. Marketing small business since 2009."), /*#__PURE__*/React.createElement("span", null, "Savannah \u2022 New Jersey")));
+  }, /*#__PURE__*/React.createElement("span", null, "\xA9 ", new Date().getFullYear(), " Sun Digital Marketing. Marketing small business since 2009. ", /*#__PURE__*/React.createElement("a", {
+    href: "/privacy-policy.html"
+  }, "Privacy Policy")), /*#__PURE__*/React.createElement("span", null, "Savannah \u2022 New Jersey")));
 }
 window.Services = Services;
 window.Results = Results;

@@ -149,7 +149,7 @@ function Footer() {
         </div>
       </div>
       <div className="wrap footer-base">
-        <span>© {new Date().getFullYear()} Sun Digital Marketing. Marketing small business since 2009.</span>
+        <span>© {new Date().getFullYear()} Sun Digital Marketing. Marketing small business since 2009. <a href="/privacy-policy.html">Privacy Policy</a></span>
         <span>Savannah • New Jersey</span>
       </div>
     </footer>
