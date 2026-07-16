@@ -742,18 +742,36 @@ function Founders() {
     rel: "noopener noreferrer",
     "aria-label": `${n} on LinkedIn`
   }, /*#__PURE__*/React.createElement("svg", {
-    width: "16",
-    height: "16",
+    width: "18",
+    height: "18",
     viewBox: "0 0 24 24",
-    fill: "currentColor",
     "aria-hidden": "true"
-  }, /*#__PURE__*/React.createElement("path", {
+  }, /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("linearGradient", {
+    id: "liGrad",
+    x1: "0",
+    y1: "0",
+    x2: "1",
+    y2: "1"
+  }, /*#__PURE__*/React.createElement("stop", {
+    offset: "0",
+    stopColor: "#FF5247"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: "0.48",
+    stopColor: "#FF8A3D"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: "1",
+    stopColor: "#FFC24B"
+  }))), /*#__PURE__*/React.createElement("rect", {
+    x: "1",
+    y: "1",
+    width: "22",
+    height: "22",
+    rx: "5",
+    fill: "url(#liGrad)"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#fff",
     d: "M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.03-1.85-3.03-1.86 0-2.15 1.45-2.15 2.94v5.66H9.35V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.56V9h3.56v11.45Z"
-  }))), /*#__PURE__*/React.createElement("a", {
-    href: calendly,
-    target: "_blank",
-    rel: "noopener noreferrer"
-  }, "Book a call"))))), /*#__PURE__*/React.createElement("div", {
+  }))))))), /*#__PURE__*/React.createElement("div", {
     className: "founders-copy reveal"
   }, /*#__PURE__*/React.createElement("span", {
     className: "eyebrow"
