@@ -725,7 +725,7 @@ function Founders() {
     className: "wrap founders-grid"
   }, /*#__PURE__*/React.createElement("div", {
     className: "founders-photos reveal"
-  }, [["Jon Pacific", "Co-founder", "assets/jon-pacific.jpg"], ["Trevor Clendenin", "Co-founder", "assets/trevor-clendenin.jpg"]].map(([n, r, src]) => /*#__PURE__*/React.createElement("div", {
+  }, [["Jon Pacific", "Co-founder", "assets/jon-pacific.jpg", "https://www.linkedin.com/in/jonpacific/", "https://calendly.com/sundm/discovery-call-w-sundm"], ["Trevor Clendenin", "Co-founder", "assets/trevor-clendenin.jpg", "https://www.linkedin.com/in/trevorclendenin/", "https://calendly.com/trevor-28/30min/"]].map(([n, r, src, linkedin, calendly]) => /*#__PURE__*/React.createElement("div", {
     className: "founder",
     key: n
   }, /*#__PURE__*/React.createElement("div", {
@@ -734,7 +734,26 @@ function Founders() {
     src: src,
     alt: n,
     loading: "lazy"
-  })), /*#__PURE__*/React.createElement("b", null, n), /*#__PURE__*/React.createElement("small", null, r)))), /*#__PURE__*/React.createElement("div", {
+  })), /*#__PURE__*/React.createElement("b", null, n), /*#__PURE__*/React.createElement("small", null, r), /*#__PURE__*/React.createElement("div", {
+    className: "founder-links"
+  }, /*#__PURE__*/React.createElement("a", {
+    href: linkedin,
+    target: "_blank",
+    rel: "noopener noreferrer",
+    "aria-label": `${n} on LinkedIn`
+  }, /*#__PURE__*/React.createElement("svg", {
+    width: "16",
+    height: "16",
+    viewBox: "0 0 24 24",
+    fill: "currentColor",
+    "aria-hidden": "true"
+  }, /*#__PURE__*/React.createElement("path", {
+    d: "M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.03-1.85-3.03-1.86 0-2.15 1.45-2.15 2.94v5.66H9.35V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.56V9h3.56v11.45Z"
+  }))), /*#__PURE__*/React.createElement("a", {
+    href: calendly,
+    target: "_blank",
+    rel: "noopener noreferrer"
+  }, "Book a call"))))), /*#__PURE__*/React.createElement("div", {
     className: "founders-copy reveal"
   }, /*#__PURE__*/React.createElement("span", {
     className: "eyebrow"

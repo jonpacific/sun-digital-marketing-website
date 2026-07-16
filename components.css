@@ -205,6 +205,10 @@
 .founder-img img { width: 100%; height: 100%; object-fit: cover; object-position: center 30%; display: block; }
 .founder-img span { font-family: var(--font-mono); font-size: 12px; color: var(--muted); }
 .founder b { font-size: 16px; } .founder small { font-size: 13px; color: var(--muted); }
+.founder-links { display: flex; align-items: center; gap: 12px; margin-top: 8px; }
+.founder-links a { display: inline-flex; align-items: center; color: var(--ink-2); transition: color .15s; }
+.founder-links a:hover { color: var(--sun-2); }
+.founder-links a:not(:first-child) { font-family: var(--font-mono); font-size: 12.5px; }
 .founder-addr { font-style: normal; font-size: 14px; line-height: 1.5; color: var(--night-muted); margin-top: 14px; }
 .founders-p { font-size: 16.5px; line-height: 1.65; color: var(--ink-2); margin-bottom: 16px; max-width: 540px; }
 
